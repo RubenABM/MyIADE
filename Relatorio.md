@@ -1,11 +1,11 @@
-# RELATÓRIO
+# RELATÓRIO - 1ªEntrega
 
 
 ## Nome Do Projeto: MyIADE
 
 #### Enquadramento do Projeto:
 
-Este projeto tem como objetivo criar uma aplicação da Faculdade de Design, Tecnologia e Comunicação, mais conhecida como IADE, sendo esta interativa e com bastante usabilidade, de modo a tornar a vida dos estudantes e dos docentes mais facilitada. Esta necessidade deve-se ao fato de já existir uma app móvel da faculdade em que a mesma possui pouca usabilidade ao utilizador, como também, não se enquadra ao nível atual de uma faculdade.
+ Este projeto tem como objetivo criar uma aplicação da Faculdade de Design, Tecnologia e Comunicação, mais conhecida como IADE, sendo esta interativa e com bastante usabilidade, de modo a tornar a vida dos estudantes e dos docentes mais facilitada. Esta necessidade deve-se ao fato de já existir uma app móvel da faculdade em que a mesma possui pouca usabilidade ao utilizador, como também, não se enquadra ao nível atual de uma faculdade.
 
 O projeto está a ser desenvolvido no âmbito das diversas cadeiras do 3º semestre de engenharia informática, sendo elas as seguintes:
 - Programação orientada a objetos;
@@ -15,12 +15,11 @@ O projeto está a ser desenvolvido no âmbito das diversas cadeiras do 3º semes
 - Matemática discreta;
 - Projeto de Desenvolvimento Móvel.
 
-Temos como plano a app possuir diversas features, sendo elas a possibilidade de visualizar as notas, horários e propinas dos estudantes. Também pretendemos implementar um chat estudantil através do número de estudante dos alunos, possibilidade de consultar as notícias da faculdade e redireccionamento para o email do aluno.
-Um dos pontos principais será a utilização da localização do dispositivo móvel. Com isto pretendemos criar um sistema de presenças através de QR Codes nas portas das salas, sendo necessária a confirmação de que o dispositivo está conectado à rede wi-fi da faculdade, confirmando que o aluno está mesmo presente. Para além disto, pretendemos possuir um sistema de notificações que indique a próxima aula, a respetiva sala, e se possível o trajeto.
-Também está planeado ser possível efetuar marcações para idas à secretaria ou algum órgão da faculdade.
-Foi necessário elaborar uma versão preliminar três guiões de teste 
-
-
+ Temos como plano a app possuir diversas features, sendo elas a possibilidade de visualizar as notas, horários e propinas dos estudantes. Também pretendemos implementar um chat estudantil através do número de estudante dos alunos, possibilidade de consultar as notícias da faculdade e redireccionamento para o email do aluno.
+ Um dos pontos principais será a utilização da localização do dispositivo móvel. Com isto pretendemos criar um sistema de presenças através de QR Codes nas portas das salas, sendo necessária a confirmação de que o dispositivo está conectado à rede wi-fi da faculdade, confirmando que o aluno está mesmo presente. Para além disto, pretendemos possuir um sistema de notificações que indique a próxima aula, a respetiva sala, e se possível o trajeto.
+ Também está planeado ser possível efetuar marcações para idas à secretaria ou algum órgão da faculdade.
+ 
+Foi necessário elaborar uma versão preliminar com três guiões de teste.
 
 #### Guiões de teste:
 
