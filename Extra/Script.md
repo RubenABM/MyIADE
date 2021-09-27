@@ -8,5 +8,5 @@
  
  Para além de efetuar as consultas como já referimos, existirão outras features, sendo elas, um chat estudantil através do numero de estudante, redireciomento para o email de estudante e possibilidade de obter as noticias mais recentes da universisdade. Um dos pontos principais da nossa app vai ser a possibilidade de marcar a presença através de QR Code à porta das salas, sendo necessário estar conectado à rede wi-fi para confirmar que está mesmo presente. 
  
- Iremos implantar um sistema de notificações que indique que a proxima aula de aproxima, a sala em si e o possivel trajeto. Será possivel marcar idas à secretaria ou algum ógão da faculdade.
+ Iremos implantar um sistema de notificações que indique que a proxima aula de aproxima, a sala em si e o possivel trajeto. Será possivel marcar idas à secretaria ou algum órgão da faculdade.
  
