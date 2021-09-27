@@ -5,7 +5,7 @@
 
 #### Enquadramento do Projeto:
 
- Este projeto tem como objetivo criar uma aplicação da Faculdade de Design, Tecnologia e Comunicação, mais conhecida como IADE, sendo esta interativa e com bastante usabilidade, de modo a tornar a vida dos estudantes e dos docentes mais facilitada. Esta necessidade deve-se ao fato de já existir uma app móvel da faculdade em que a mesma possui pouca usabilidade ao utilizador, como também, não se enquadra ao nível atual de uma faculdade.
+   Este projeto tem como objetivo criar uma aplicação da Faculdade de Design, Tecnologia e Comunicação, mais conhecida como IADE, sendo esta interativa e com bastante usabilidade, de modo a tornar a vida dos estudantes e dos docentes mais facilitada. Esta necessidade deve-se ao fato de já existir uma app móvel da faculdade em que a mesma possui pouca usabilidade ao utilizador, como também, não se enquadra ao nível atual de uma faculdade.
 
 O projeto está a ser desenvolvido no âmbito das diversas cadeiras do 3º semestre de engenharia informática, sendo elas as seguintes:
 - Programação orientada a objetos;
