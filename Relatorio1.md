@@ -1,6 +1,9 @@
-![Drag Racing](ue-iade-h75.png)
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+# RELATÓRIO - 1ªEntrega    |  ![Drag Racing](ue-iade-h75.png)
 
-# RELATÓRIO - 1ªEntrega
+
+
 
 ## Nome Do Projeto: MyIADE
 
