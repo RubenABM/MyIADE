@@ -59,7 +59,7 @@ A nossa app será direcionada aos diversos alunos e docentes da faculdade, possu
 
 * * *
 
-#### Guiões de teste:
+### Guiões de teste:
 
 ###### (Conferir notas do aluno)
 1º - Abrir a aplicação, efetuar a autenticação, abrir a aba menu no canto superior esquerdo, entrar na aba notas. Será mostrada as respetivas notas dos alunos.
