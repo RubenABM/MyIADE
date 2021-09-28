@@ -53,7 +53,7 @@ A nossa app será direcionada aos diversos alunos e docentes da faculdade, possu
 - Consulta de notas, horários, propinas e noticias;
 - Chat estudantil através do número de estudante;
 - Encaminhamento para o e-mail do aluno;
-- Sistema de presenças através de QR Code na porta das salas, sendo necessário estar ligado à rede da faculdade para confirmar a localização;
+- Sistema de presenças através de QR Code disponibilizado pelo docente, sendo necessário estar ligado à rede da faculdade para confirmar a localização;
 - Sistema de norificações que indique a próxima aulas, a respetiva sala, e se possível o trejeto.
 - Marcação de deslocações à secretaria ou algum órgão da faculdade.
 
