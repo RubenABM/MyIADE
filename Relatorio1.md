@@ -13,10 +13,14 @@
 - Matemática discreta;
 - Projeto de Desenvolvimento Móvel.
 
+* * *
+
 ### Membros do grupo:
 
 Rúben Martins (NºEstudante:20200453)
-Rúben Passarinho (NºEstudante:)
+Rúben Passarinho (NºEstudante:20200095)
+
+* * *
 
 ### Resumo:
 
