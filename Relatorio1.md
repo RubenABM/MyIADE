@@ -41,6 +41,19 @@ O IADE possui uma app movel, a qual se encontra desatualizada e de modo nenhum s
 
 * * *
 
+* * *
+
 ### Objetivo:
 
 O objetivo deste projeto é desenvolver uma app móvel da faculdade, que corresponda às verdadeiras necessidades do estudante.
+
+#### Guiões de teste:
+
+###### (Conferir notas do aluno)
+1º - Abrir a aplicação, efetuar a autenticação, abrir a aba menu no canto superior esquerdo, entrar na aba notas. Será mostrada as respetivas notas dos alunos.
+
+###### (Leitura do QR Code para marcação da presença)
+2º - Abrir a aplicação, efetuar a autenticação, clicar na opção “Marcar presença”, permitir o acesso à camara, efetuar a leitura do QR Code. -> Não esquecer de estar ligado à rede wi-fi da faculdade
+
+###### (E-mail de estudante)
+3ª - Abrir a aplicação, efetuar a autenticação, clicar na opção “E-mail de estudante”. -> Será redirecionado para o e-mail de estudante
