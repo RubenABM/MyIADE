@@ -4,9 +4,8 @@
    <div style="width: 50%;">
       <img src="ue-iade-h75.png"/>
    </div>
-   
    <div style="width: 50%;">
-      <h3>Relatório</h3>
+      <h1>Relatório</h1>
    </div>
 </div>
 
