@@ -8,6 +8,8 @@
 
 Iremos desenvolver uma app movel da faculdade, com o nome de "MyIADE", de modo a facilitar o acesso à informação pelos estudantes.
 
+* * *
+
 ### Palavras-Chave:
 
 1º Faculdade  | 2º Informação | 3º Alunos | 4º Horários | 5º Acessibilidade
