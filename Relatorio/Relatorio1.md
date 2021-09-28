@@ -59,6 +59,12 @@ A nossa app será direcionada aos diversos alunos e docentes da faculdade, possu
 
 * * *
 
+### Outras ferramentas já existentes:
+
+Como já referimos anteriormente o IADE já possui um app móvel. A mesma não está atualizada e possui um design não adequado à faculdade.
+
+* * *
+
 ### Guiões de teste:
 
 ###### (Conferir notas do aluno)
