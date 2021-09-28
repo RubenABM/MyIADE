@@ -1,6 +1,6 @@
 ![LOGO](./ue-iade-h75.png)    
 
-# RELATÓRIO (1ºEntrega)
+# RELATÓRIO (1ªEntrega)
 
 ## Nome Do Projeto: MyIADE
 
