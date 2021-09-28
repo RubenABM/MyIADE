@@ -54,15 +54,14 @@ A nossa app será direcionada aos diversos alunos e docentes da faculdade, possu
 - Chat estudantil através do número de estudante;
 - Encaminhamento para o e-mail do aluno;
 - Sistema de presenças através de QR Code disponibilizado pelo docente, sendo necessário estar ligado à rede da faculdade para confirmar a localização;
-- Sistema de norificações que indique a próxima aulas, a respetiva sala, e se possível o trejeto.
+- Sistema de norificações que indique a próxima aula, a respetiva sala, e se possível o trejeto.
 - Marcação de deslocações à secretaria ou algum órgão da faculdade.
 
 * * *
 
 ### Outras ferramentas já existentes:
 
-Como já referimos anteriormente o IADE já possui um app móvel. A mesma não está atualizada e possui um design não adequado à faculdade.
-
+Como já referimos anteriormente o IADE já possui um app móvel. A mesma não está atualizada e possui um design não adequado à atualidade.
 * * *
 
 ### Guiões de teste:
