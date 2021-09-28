@@ -1,6 +1,9 @@
-![Drag Racing](ue-iade-h75.png)    
+# RELATÓRIO
 
-# RELATÓRIO - 1ªEntrega 
+<div>
+   <img src="ue-iade-h75.png"/>
+   <h3>Relatório</h3>
+</div>
 
 ## Nome Do Projeto: MyIADE
 
