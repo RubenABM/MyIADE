@@ -9,9 +9,9 @@
 - Bases de Dados;
 - Competências Comunicacionais;
 - Matemática Discreta;
-- Projeto de Desenvolvimento Móvel.
 - Programação de Dispositivos Móveis;
 - Programação Orientada por Objetos;
+- Projeto de Desenvolvimento Móvel.
 
 * * *
 
