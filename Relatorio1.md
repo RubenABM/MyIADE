@@ -4,8 +4,6 @@
 
 ## Nome Do Projeto: MyIADE
 
-* * *
-
 ### Resumo:
 
 Iremos desenvolver uma app movel da faculdade, com o nome de "MyIADE", de modo a facilitar o acesso à informação pelos estudantes.
