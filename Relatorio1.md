@@ -1,5 +1,6 @@
 # RELATÓRIO - 1ªEntrega
 
+![Drag Racing](ue-iade-h75.png)
 
 ## Nome Do Projeto: MyIADE
 
