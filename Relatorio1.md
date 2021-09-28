@@ -40,3 +40,7 @@ Hoje em dia existe um hábito de procurar informação através de equipamentos 
 O IADE possui uma app movel, a qual se encontra desatualizada e de modo nenhum se enquadra nos requesitos base de um design apelativo.
 
 * * *
+
+### Objetivo:
+
+O objetivo deste projeto é desenvolver uma app móvel da faculdade, que corresponda às verdadeiras necessidades do estudante.
