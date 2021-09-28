@@ -4,6 +4,20 @@
 
 ## Nome Do Projeto: MyIADE
 
+### Cadeiras participantes:
+
+- Programação orientada a objetos;
+- Programação de dispositivos móveis;
+- Bases de dados;
+- Competências comunicacionais;
+- Matemática discreta;
+- Projeto de Desenvolvimento Móvel.
+
+### Membros do grupo:
+
+Rúben Martins (NºEstudante:20200453)
+Rúben Passarinho (NºEstudante:)
+
 ### Resumo:
 
 Iremos desenvolver uma app movel da faculdade, com o nome de "MyIADE", de modo a facilitar o acesso à informação pelos estudantes e docentes.
