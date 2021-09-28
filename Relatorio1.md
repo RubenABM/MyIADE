@@ -17,8 +17,8 @@
 
 ### Membros do grupo:
 
-Rúben Martins (NºEstudante:20200453)
-Rúben Passarinho (NºEstudante:20200095)
+- Rúben Martins (NºEstudante:20200453)
+- Rúben Passarinho (NºEstudante:20200095)
 
 * * *
 
