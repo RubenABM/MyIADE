@@ -6,12 +6,12 @@
 
 ### Cadeiras participantes:
 
-- Programação orientada a objetos;
-- Programação de dispositivos móveis;
-- Bases de dados;
-- Competências comunicacionais;
-- Matemática discreta;
+- Bases de Dados;
+- Competências Comunicacionais;
+- Matemática Discreta;
 - Projeto de Desenvolvimento Móvel.
+- Programação de Dispositivos Móveis;
+- Programação Orientada por Objetos;
 
 * * *
 
