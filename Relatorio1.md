@@ -1,6 +1,4 @@
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-# RELATÓRIO - 1ªEntrega    |  ![Drag Racing](ue-iade-h75.png)
+![Drag Racing](ue-iade-h75.png) # RELATÓRIO - 1ªEntrega     
 
 
 
