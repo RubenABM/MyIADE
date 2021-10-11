@@ -81,7 +81,7 @@ Com a nossa aplicação iremos inovador este estigma por entre estas aplicaçõe
 ### Guiões de teste:
 
 ###### (Leitura do QR Code para marcação da presença)
-1º - No menu principal irá existir uma opção com o nome "Presenças", que irá abrir um menu onde irá possuir 2 opções(marcar presença e presenças). Irá entrar na opção "Marcar presença", será pedido o acesso à câmara do telemóvel, depois de permitir o acesso irá ler o QR Code. Será automaticamente marcada a presença na respetiva aula. 
+1º - No menu principal irá existir uma opção com o nome "Presenças", que irá abrir um menu onde irá possuir 2 opções (marcar presença e presenças). Irá entrar na opção "Marcar presença", será pedido o acesso à câmara do telemóvel, depois de permitir o acesso irá ler o QR Code. Será automaticamente marcada a presença na respetiva aula. 
 
 ###### (Mostrar o mapa da sala)
 2º - 5 minutos antes da aula marcada começar, irá receber uma notificação com o nome da respetiva aula e o número da sala de aula. Irá ter de clicar na notificação recebida de forma a ser mostrada a informação completa acerca da aula (Nome da cadeira, respetiva sala, nome do docente, hora de inicio e de fim). De seguida terá de clicar no botão "localizar sala de aula", sendo mostrado um mapa do andar com a respetiva sala marcada e trajeto.
