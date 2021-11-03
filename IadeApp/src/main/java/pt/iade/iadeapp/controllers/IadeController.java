@@ -20,7 +20,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @RestController
-@RequestMapping(path = "/api/units")
+@RequestMapping(path = "/api/iade")
 public class IadeController{
     
     private Logger logger = LoggerFactory.getLogger(IadeController.class);
