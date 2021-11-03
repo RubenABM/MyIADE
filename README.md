@@ -1,2 +1,2 @@
 # MyIADE
-Projeto 3º Semestre
+Projeto 3º Semestre de Engenharia Informática
