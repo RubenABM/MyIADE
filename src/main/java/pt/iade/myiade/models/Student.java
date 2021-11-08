@@ -16,10 +16,10 @@ public class Student {
     @Column(name="stu_id") private int id;
     @Column(name="stu_name") private String name;
     @Column(name="stu_bDate") private LocalDate bDate;
-    @Column(name="stu_number") private int number;
+    @Column(name="stu_mobileNumber") private int mNumber;
     @Column(name="stu_email") private String email;
     @Column(name="stu_address") private String address;
-    @Column(name="stu_rateCommentId") private int RateId;
+    @Column(name="stu_rateCommentId") private int rateId;
     @Column(name="stu_subscriptionId") private int subId;
     @Column(name="stu_answerId") private int ansId;
     public Student() {}
@@ -32,8 +32,8 @@ public class Student {
     public LocalDate getbDate() { 
         return bDate; 
     }
-    public int getNumber() {   
-        return number;
+    public int getMNumber() {   
+        return mNumber;
     }
     public String getEmail() {
         return email;
