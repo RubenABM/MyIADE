@@ -29,7 +29,7 @@ public class Student {
     public String getName() { 
         return name;
      }
-    public LocalDate getbDate() { 
+    public LocalDate getBDate() { 
         return bDate; 
     }
     public int getMNumber() {   
