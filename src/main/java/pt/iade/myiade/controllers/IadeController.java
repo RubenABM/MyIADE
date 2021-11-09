@@ -27,20 +27,20 @@ public class IadeController{
     @Autowired
     private StudentRepository studentRepository;
     @GetMapping(path = "", produces = MediaType.APPLICATION_JSON_VALUE)
-    public Iterable<Student> getStudentInfo()
+    public Iterable<Student> getAllStudent()
     {
-        logger.info("Enviar informação completa dos estudantes");
+        logger.info("Students info: ");
         return studentRepository.findAll();
     }
 
     @GetMapping(path = "/{id:[0-9]+}", produces=
     MediaType.APPLICATION_JSON_VALUE)
-    public Student getUnit(@PathVariable int id) 
+    public Student getStudentInfo(@PathVariable int id) 
     {
-        logger.info("Sending unit with id " + id);
+        logger.info("Sending student with id " + id);
         Optional<Student> _student = studentRepository.findById(id);
         if (_student.isEmpty())
-        throw new NotFoundException("" + id, "Unit", "id");
+        throw new NotFoundException("" + id, "Student", "id");
         else return _student.get();
     }
 }
