@@ -21,9 +21,9 @@ import org.slf4j.LoggerFactory;
 
 @RestController
 @RequestMapping(path = "/api/students")
-public class IadeController{
+public class StudentController{
     
-    private Logger logger = LoggerFactory.getLogger(IadeController.class);
+    private Logger logger = LoggerFactory.getLogger(StudentController.class);
     @Autowired
     private StudentRepository studentRepository;
     @GetMapping(path = "", produces = MediaType.APPLICATION_JSON_VALUE)
@@ -35,13 +35,13 @@ public class IadeController{
 
     @GetMapping(path = "/{id:[0-9]+}", produces=
     MediaType.APPLICATION_JSON_VALUE)
-    public String getStudentInfo(@PathVariable int id) 
+    public Student getStudentInfo(@PathVariable int id) 
     {
         logger.info("Sending student with id " + id);
         Optional<Student> _student = studentRepository.findById(id);
         if (_student.isEmpty())
         throw new NotFoundException("" + id, "Student", "id");
-        else return _student.get().getPassword();
+        else return _student.get();
     }
 }
 
