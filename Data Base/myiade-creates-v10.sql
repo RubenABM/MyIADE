@@ -55,6 +55,8 @@ create table enrollment (
 					enroll_id SERIAL not null,
 					enroll_stu_id INT not null,
 					enroll_class_id INT not null,
+					enroll_grade INT,
+					enroll_date date not null,
 					primary key (enroll_id) 
 );
 
