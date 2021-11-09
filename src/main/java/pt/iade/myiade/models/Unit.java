@@ -8,13 +8,15 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="Unit")
+@Table(name="unit")
 public class Unit {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Column(name="unit_id") private int id;
     @Column(name="unit_name") private String name;
+    @Column(name="unit_semester") private int semester;
     public Unit() {}
     public int getId() { return id; }
     public String getName() { return name; }
+    public int getSemester() { return semester; }
 }

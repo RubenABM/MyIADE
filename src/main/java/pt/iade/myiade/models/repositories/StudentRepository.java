@@ -2,9 +2,9 @@ package pt.iade.myiade.models.repositories;
 
 import org.springframework.data.repository.CrudRepository;
 
-import pt.iade.myiade.models.Iade;
+import pt.iade.myiade.models.Student;
 
-public interface IadeRepository extends CrudRepository<Iade,Integer>
+public interface StudentRepository extends CrudRepository<Student,Integer>
 {
     
 }

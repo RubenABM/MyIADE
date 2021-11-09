@@ -9,20 +9,20 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="students")
-public class Student {
+@Table(name="teacher")
+public class Teacher {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    @Column(name="stu_id") private int id;
-    @Column(name="stu_name") private String name;
-    @Column(name="stu_bdate") private LocalDate bDate;
-    @Column(name="stu_phone") private int phone;
-    @Column(name="stu_email") private String email;
-    @Column(name="stu_address") private String address;
-    @Column(name="stu_password") private String password;
-    @Column(name="stu_gender") private char gender;
-    @Column(name="stu_civilnum") private int civilNum;
-    public Student() {}
+    @Column(name="teach_id") private int id;
+    @Column(name="teach_name") private String name;
+    @Column(name="teach_bdate") private LocalDate bDate;
+    @Column(name="teach_phone") private int phone;
+    @Column(name="teach_email") private String email;
+    @Column(name="teach_address") private String address;
+    @Column(name="teach_password") private String password;
+    @Column(name="teach_gender") private char gender;
+    @Column(name="teach_civilnum") private int civilNum;
+    public Teacher() {}
     public int getId() { 
         return id;
     }
