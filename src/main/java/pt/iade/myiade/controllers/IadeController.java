@@ -35,13 +35,13 @@ public class IadeController{
 
     @GetMapping(path = "/{id:[0-9]+}", produces=
     MediaType.APPLICATION_JSON_VALUE)
-    public Student getStudentInfo(@PathVariable int id) 
+    public String getStudentInfo(@PathVariable int id) 
     {
         logger.info("Sending student with id " + id);
         Optional<Student> _student = studentRepository.findById(id);
         if (_student.isEmpty())
         throw new NotFoundException("" + id, "Student", "id");
-        else return _student.get();
+        else return _student.get().getPassword();
     }
 }
 
