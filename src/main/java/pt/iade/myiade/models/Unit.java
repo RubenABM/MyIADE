@@ -8,13 +8,13 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="students")
-public class Iade {
+@Table(name="Unit")
+public class Unit {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    @Column(name="stu_id") private int id;
-    @Column(name="stu_name") private String name;
-    public Iade() {}
+    @Column(name="unit_id") private int id;
+    @Column(name="unit_name") private String name;
+    public Unit() {}
     public int getId() { return id; }
     public String getName() { return name; }
 }

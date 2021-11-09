@@ -1,73 +1,53 @@
 package pt.iade.myiade.models;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Student")
 public class Student {
-    private int id;
-    private String name;
-    private LocalDate birthDay;
-    private String address;
-    private String email;
-    private char gender;
-    private String className;
-
-    @JsonIgnoreProperties({"student"})
-    private ArrayList<Enrolment> enrolments;
-    public Student(int id, String name, LocalDate birthDate, 
-        String address, String email, char gender, String className) {
-            this.id = id;
-            this.name = name; 
-            this.birthDay = birthDate;
-            this.address = address;
-            this.email = email;
-            this.gender = gender;
-            this.className = className;
-            enrolments = new ArrayList<>();
-    }
-    public int getId() {
+    @Id
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @Column(name="stu_id") private int id;
+    @Column(name="stu_name") private String name;
+    @Column(name="stu_bDate") private LocalDate bDate;
+    @Column(name="stu_mobileNumber") private int mNumber;
+    @Column(name="stu_email") private String email;
+    @Column(name="stu_address") private String address;
+    @Column(name="stu_rateCommentId") private int rateId;
+    @Column(name="stu_subscriptionId") private int subId;
+    @Column(name="stu_answerId") private int ansId;
+    public Student() {}
+    public int getId() { 
         return id;
     }
-    public void setId(int id) {
-        this.id = id;
-    }
-    public String getName() {
+    public String getName() { 
         return name;
+     }
+    public LocalDate getBDate() { 
+        return bDate; 
     }
-    public void setName(String name) {
-        this.name = name;
-    }
-    public LocalDate getBirthDay() {
-        return birthDay;
-    }
-    public void setBirthDay(LocalDate birthDay) {
-        this.birthDay = birthDay;
-    }
-    public String getAddress() {
-        return address;
-    }
-    public void setAddress(String address) {
-        this.address = address;
+    public int getMNumber() {   
+        return mNumber;
     }
     public String getEmail() {
         return email;
     }
-    public void setEmail(String email) {
-        this.email = email;
+    public String getAddress() {
+        return address;
     }
-    public char getGender() {
-        return gender;
+    public int getRateId() {
+        return RateId;
     }
-    public void setGender(char gender) {
-        this.gender = gender;
+    public int getSubId() {
+        return subId;
     }
-    public String getClassName() {
-        return className;
-    }
-    public void setClassName(String className) {
-        this.className = className;
-    }
-
-    
-
+    public int getAnsId() {
+        return ansId;
+    } 
 }
