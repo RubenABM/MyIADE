@@ -1,5 +1,6 @@
 package pt.iade.myiade.models;
-import java.time.LocalDate;
+import java.sql.Date;
+
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -15,7 +16,7 @@ public class Student {
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Column(name="stu_id") private int id;
     @Column(name="stu_name") private String name;
-    @Column(name="stu_bDate") private LocalDate bDate;
+    @Column(name="stu_bDate") private Date bDate;
     @Column(name="stu_phone") private int phone;
     @Column(name="stu_email") private String email;
     @Column(name="stu_address") private String address;
@@ -29,7 +30,7 @@ public class Student {
     public String getName() { 
         return name;
      }
-    public LocalDate getBDate() { 
+    public Date getBDate() { 
         return bDate; 
     }
     public int getPhone() {   
