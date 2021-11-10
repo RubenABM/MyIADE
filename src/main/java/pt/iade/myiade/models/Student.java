@@ -44,7 +44,7 @@ public class Student {
     public String getPassword() {
         return password;
     }
-    public int getGender() {
+    public char getGender() {
         return gender;
     }
     public int getCivilNumber() {
