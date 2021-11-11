@@ -93,6 +93,14 @@ Com a nossa aplicação iremos inovador este estigma por entre estas aplicaçõe
 
 ### Personas:
 
-# Persona 1
+###### Persona 1
 
 O André...
+
+###### Persona 2
+
+A susana...
+
+###### Persona 3
+
+O fábio...
