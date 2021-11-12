@@ -108,3 +108,42 @@ O Fábio Santos é um jovem de 20 anos, é estudante do IADE tendo outro irmão 
 * * *
 
 ### Documentação REST:
+
+#### Apresentação da informação de todos os estudantes
+###### (Devolve a informação referente a todos os estudantes)
+##### Url: myiade.herokuapp.com/api/students (get)
+Resultado:
+[  {  "id": 1, "name": "Aluno teste",
+       "phone": “123123123”, “email”: “email@iade.pt”, “address”: “lisboa”, “password”: “123”, “gender”: “M”, “bdate”: “1999-05-21”, “civilNumber”: “1233311” }
+  
+{  "id": 2, "name": "Aluno teste 2",
+       "phone": “123123123”, “email”: “email@iade.pt”, “address”: “lisboa”, “password”: “123”, “gender”: “M”, “bdate”: “1999-05-21”, “civilNumber”: “1233311”     
+}
+… ]
+
+#### Apresentação da informação de um estudante através do id
+###### (Devolve a informação referente a cada estudante pelo seu id)
+##### Url: Url: myiade.herokuapp.com/api/students/{id} (get)
+##### Parâmetros: id - inteiro positivo que corresponde ao id do estudante 
+
+Resultado:
+{
+  "id": 1, "name": "Aluno teste", "phone": “123123123”, “email”: “email@iade.pt”, “address”: “lisboa”, “password”: “123”, “gender”: “M”, “bdate”: “1999-05-21”, “civilNumber”: “1233311”     
+}
+ 
+Erros:
+404 (HttpStatus.NOT_FOUND): O estudante não foi encontrado
+{
+    "timestamp": "2021-11-10T22:12:27.282+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "message": "Student with id 9 not found",
+    "path": "/api/students/0"
+}
+
+#### Obter as notas do estudante através do id associado a um curso e uma uc
+###### (Irá devolver uma nota de um estudante tendo por base o id associado a um curso e uc)
+##### Url: myiade.herokuapp.com/api/students/{id}/grade (get)
+##### Parâmetros: id - inteiro positivo que corresponde ao id associado a um curso e uc
+
+Resultado:
