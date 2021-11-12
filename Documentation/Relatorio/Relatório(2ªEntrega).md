@@ -115,11 +115,11 @@ O Fábio Santos é um jovem de 20 anos, é estudante do IADE tendo outro irmão 
 Resultado:
 [
 {
-  "id":1, "name":"André Santos", "phone":925478589, "email":"andres@iade.pt", "address":"lisboa", "password":"11445226", "gender":"M", "bdate":"2000-05-21",
-  "civilNumber":32541255}
+   "id":1,"name":"André Santos","phone":925478589,"email":"andres@iade.pt","address":"lisboa","password":"11445226","gender":"M","bdate":"2000-05-21","civilNumber":32541255
+}
 {
- "id":2, "name":"Bruna Sousa", "phone":965544324, "email":"brunas@iade.pt", "address":"lisboa", "password":"23232335", "gender":"F", "bdate":"2002-01-02",
- "civilNumber":77553844}
+   "id":2,"name":"Bruna Sousa","phone":965544324,"email":"brunas@iade.pt","address":"lisboa","password":"23232335","gender":"F","bdate":"2002-01-02","civilNumber":77553844}
+}
 …]
 
 #### Apresentação da informação de um estudante através do id
@@ -129,17 +129,16 @@ Resultado:
 
 Resultado:
 {
-  {"id":1, "name":"André Santos", "phone":925478589, "email":"andres@iade.pt", "address":"lisboa", "password":"11445226", "gender":"M", "bdate":"2000-05-21",
-  "civilNumber":32541255}     
+   "id":1,"name":"André Santos","phone":925478589,"email":"andres@iade.pt","address":"lisboa","password":"11445226","gender":"M","bdate":"2000-05-21","civilNumber":32541255}     
 }
  
 Erros:
-404 (HttpStatus.NOT_FOUND): O estudante não foi encontrado
+404 (HttpStatus.NOT_FOUN D): O estudante não foi encontrado
 {
     "timestamp": "2021-11-10T22:12:27.282+00:00",
     "status": 404,
     "error": "Not Found",
-    "message": "Student with id 0 not found",
+    "message": "Student with id 9 not found",
     "path": "/api/students/0"
 }
 
