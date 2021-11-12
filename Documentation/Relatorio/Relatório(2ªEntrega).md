@@ -1,6 +1,6 @@
 ![LOGO](./ue-iade-h75.png)    
 
-# RELATÓRIO (1ªEntrega)
+# RELATÓRIO (2ªEntrega)
 
 ## Nome Do Projeto: MyIADE
 
@@ -95,15 +95,15 @@ Com a nossa aplicação iremos inovador este estigma por entre estas aplicaçõe
 
 ###### (Persona 1)
 
-O André...
+O André Santos é um jovem de 21 anos, atualmente é estudante do 3ºano do curso de design na universidade do IADE. O André possui nacionalidade portuguesa e atualmente reside em Lisboa. Nos seus tempos livres gosta de desenhar e praticar exercício físico, mais precisamente caminhar e jogar futebol. O André possui uma familia bastante vasta, tendo 3 irmãos e vários tios, tendo um irmão também no IADE. O André irá utilizar a aplicação para consultar informação acerca do seu percurso na universidade, ajudando-o enquanto estudante do IADE.
 
 ###### (Persona 2)
 
-A susana...
+A Bruna Sousa é uma jovem de 19 anos, é estudante do IADE, 1ºano, frequentando o curso de fotografia. A Bruna possui nacionalidade portuguesa, é natural do Porto, mas atualmente vive em Lisboa para estar mais próxima da universidade. A Bruna gosta de tirar fotografias nos seus tempos livres e jogar jogos de tabuleiro. A Bruna possui uma familia pequena, tendo perdido po pai enquanto era bastante pequena. A Bruna sempre quis uma maneira rápida e fácil de consultar as informações acerca do seu curso, com esta aplicação irá conseguir fazê-lo.         
 
 ###### (Persona 3)
 
-O fábio...
+O Fábio Santos é um jovem de 20 anos, é estudante do IADE tendo outro irmão também na universidade, chamado André Santos. O Fábio é estudante do curso de desenvolvimento de aplicaçoes e jogos, estando no 2ºano. Tal como o seu irmão, possui nacionalidade portuguesa e reside em Lisboa. Nos seus tempos livres gosta de jogar videojogos e jogar futebol com o seu irmão. O Fábio é um aluno tranferido de outra universidade, onde sempre se queixou de a mesma não possuir uma aplicação para facilitar o percurso dos estudantes. Com a aplicação do MyIADE, será possivel fornecer uma forma mais prática para consultar o percurso dos estudantes.
 
 * * *
 
