@@ -113,13 +113,14 @@ O Fábio Santos é um jovem de 20 anos, é estudante do IADE tendo outro irmão 
 ###### (Devolve a informação referente a todos os estudantes)
 ##### Url: myiade.herokuapp.com/api/students (get)
 Resultado:
-[  {  "id": 1, "name": "Aluno teste",
-       "phone": “123123123”, “email”: “email@iade.pt”, “address”: “lisboa”, “password”: “123”, “gender”: “M”, “bdate”: “1999-05-21”, “civilNumber”: “1233311” }
-  
-{  "id": 2, "name": "Aluno teste 2",
-       "phone": “123123123”, “email”: “email@iade.pt”, “address”: “lisboa”, “password”: “123”, “gender”: “M”, “bdate”: “1999-05-21”, “civilNumber”: “1233311”     
-}
-… ]
+[
+{
+  "id":1, "name":"André Santos", "phone":925478589, "email":"andres@iade.pt", "address":"lisboa", "password":"11445226", "gender":"M", "bdate":"2000-05-21",
+  "civilNumber":32541255}
+{
+ "id":2, "name":"Bruna Sousa", "phone":965544324, "email":"brunas@iade.pt", "address":"lisboa", "password":"23232335", "gender":"F", "bdate":"2002-01-02",
+ "civilNumber":77553844}
+…]
 
 #### Apresentação da informação de um estudante através do id
 ###### (Devolve a informação referente a cada estudante pelo seu id)
@@ -128,7 +129,8 @@ Resultado:
 
 Resultado:
 {
-  "id": 1, "name": "Aluno teste", "phone": “123123123”, “email”: “email@iade.pt”, “address”: “lisboa”, “password”: “123”, “gender”: “M”, “bdate”: “1999-05-21”, “civilNumber”: “1233311”     
+  {"id":1, "name":"André Santos", "phone":925478589, "email":"andres@iade.pt", "address":"lisboa", "password":"11445226", "gender":"M", "bdate":"2000-05-21",
+  "civilNumber":32541255}     
 }
  
 Erros:
@@ -137,7 +139,7 @@ Erros:
     "timestamp": "2021-11-10T22:12:27.282+00:00",
     "status": 404,
     "error": "Not Found",
-    "message": "Student with id 9 not found",
+    "message": "Student with id 0 not found",
     "path": "/api/students/0"
 }
 
