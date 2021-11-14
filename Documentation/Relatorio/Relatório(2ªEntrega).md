@@ -70,8 +70,8 @@ A nossa app será direcionada aos diversos alunos e docentes da faculdade, possu
 
 Como já referimos anteriormente o IADE já possui uma app móvel. A mesma não está atualizada e possui um design não adequado à atualidade.
 Procurámos outras aplicações semelhantes a esta em outros estabelecimentos de ensino, sendo eles:
-- Universidade Lusofona
-- Faculdade de Ciencias 
+- Universidade Lusófona
+- Faculdade de Ciências 
 
 Com base na nossa pesquisa conferimos que, em geral, as aplicações são sempre bastante semelhantes, possuindo as mesmas opções básicas, como por exemplo conferir notas e horários.
 Com a nossa aplicação iremos inovador este estigma por entre estas aplicações, inovando nas opções fornecidas.
