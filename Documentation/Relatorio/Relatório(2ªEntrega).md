@@ -99,7 +99,7 @@ O André Santos é um jovem de 21 anos, atualmente é estudante do 3ºano do cur
 
 ###### (Persona 2)
 
-A Bruna Sousa é uma jovem de 19 anos, é estudante do IADE, 1ºano, frequentando o curso de fotografia. A Bruna possui nacionalidade portuguesa, é natural do Porto, mas atualmente vive em Lisboa para estar mais próxima da universidade. A Bruna gosta de tirar fotografias nos seus tempos livres e jogar jogos de tabuleiro. A Bruna possui uma familia pequena, tendo perdido po pai enquanto era bastante pequena. A Bruna sempre quis uma maneira rápida e fácil de consultar as informações acerca do seu curso, com esta aplicação irá conseguir fazê-lo.         
+A Bruna Sousa é uma jovem de 19 anos, é estudante do IADE, 1ºano, frequentando o curso de fotografia. A Bruna possui nacionalidade portuguesa, é natural do Porto, mas atualmente vive em Lisboa para estar mais próxima da universidade. A Bruna gosta de tirar fotografias nos seus tempos livres e jogar jogos de tabuleiro. A Bruna possui uma familia pequena, tendo perdido o pai enquanto era bastante pequena. A Bruna sempre quis uma maneira rápida e fácil de consultar as informações acerca do seu curso, com esta aplicação irá conseguir fazê-lo.         
 
 ###### (Persona 3)
 
