@@ -2,12 +2,12 @@ create table students (
 					stu_id SERIAL not null,
 					stu_name VARCHAR(100) not null,
 					stu_bdate date not null, 
-					stu_phone INT(9) not null,
+					stu_phone INT not null,
 					stu_email VARCHAR(30), 
 					stu_address VARCHAR(250),					
 					stu_password VARCHAR(64),				
 					stu_gender CHAR(1) not null,
-					stu_civilnum INT(8) not null,  						
+					stu_civilnum INT not null,  						
 					primary key (stu_id)	
 );
 
@@ -15,12 +15,12 @@ create table teacher (
 					teach_id SERIAL not null,
 					teach_name VARCHAR(100) not null,
 					teach_bdate date not null, 
-					teach_phone INT(9) not null,
+					teach_phone INT not null,
 					teach_email VARCHAR(30), 
 					teach_address VARCHAR(250),					
 					teach_password VARCHAR(64),				
 					teach_gender CHAR(1) not null,
-					teach_civilnum INT(8) not null, 						
+					teach_civilnum INT not null, 						
 					primary key (teach_id)	
 );
 		     		     
@@ -33,8 +33,8 @@ create table course (
 create table unit (
 					unit_id SERIAL not null,
 					unit_name VARCHAR(40) not null, 
-					unit_semester INT(1) not null,
-					primary key (cour_id)
+					unit_semester INT not null,
+					primary key (unit_id)
 );
 
 create table unitcourse (
