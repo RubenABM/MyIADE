@@ -76,6 +76,46 @@ insert into unit (unit_name, unit_semester) values ('Empreendedorismo - Base Tec
 insert into unit (unit_name, unit_semester) values ('Ética e Deontologia Profissional/Voluntariado', 6)
 insert into unit (unit_name, unit_semester) values ('Projeto Final', 6)
 
+insert into unit (unit_name, unit_semester) values ('Math, Physics and Games I', 1)
+insert into unit (unit_name, unit_semester) values ('Programming Fundamentals', 1)
+insert into unit (unit_name, unit_semester) values ('Visual Art for Games', 1)
+insert into unit (unit_name, unit_semester) values ('Game Production', 1)
+insert into unit (unit_name, unit_semester) values ('Computational Systems for Games', 1)
+insert into unit (unit_name, unit_semester) values ('2D Project', 1)
+insert into unit (unit_name, unit_semester) values ('Communication Skills	', 1)
+insert into unit (unit_name, unit_semester) values ('Game Design', 2)
+insert into unit (unit_name, unit_semester) values ('Web Programming', 2)
+insert into unit (unit_name, unit_semester) values ('Databases', 2)
+insert into unit (unit_name, unit_semester) values ('Web Project', 2)
+insert into unit (unit_name, unit_semester) values ('Ethics and Professional Deontology', 2)
+insert into unit (unit_name, unit_semester) values ('Math and Physics for Games II', 3)
+insert into unit (unit_name, unit_semester) values ('Mobile Programming', 3)
+insert into unit (unit_name, unit_semester) values ('Game Frameworks', 3)
+insert into unit (unit_name, unit_semester) values ('Data Structures', 3)
+insert into unit (unit_name, unit_semester) values ('Multiplatform Project', 3)
+insert into unit (unit_name, unit_semester) values ('Science, Sources and Methods', 3)
+insert into unit (unit_name, unit_semester) values ('Math, Physics and Games III', 4)
+insert into unit (unit_name, unit_semester) values ('Computer Graphics', 4)
+insert into unit (unit_name, unit_semester) values ('Artificial Intelligence', 4)
+insert into unit (unit_name, unit_semester) values ('Software Development Methodologies', 4)
+insert into unit (unit_name, unit_semester) values ('3D Project', 4)
+insert into unit (unit_name, unit_semester) values ('Creativity and Critical Thinking', 4)
+insert into unit (unit_name, unit_semester) values ('Emerging game technologies', 5)
+insert into unit (unit_name, unit_semester) values ('Distributed Programming', 5)
+insert into unit (unit_name, unit_semester) values ('Security for Games', 5)
+insert into unit (unit_name, unit_semester) values ('Advanced Techniquesin Game Programming', 5)
+insert into unit (unit_name, unit_semester) values ('Multiplayer Project', 5)
+insert into unit (unit_name, unit_semester) values ('Business Model for Games', 5)
+insert into unit (unit_name, unit_semester) values ('Usability and user experience', 6)
+insert into unit (unit_name, unit_semester) values ('Integration with Social Networks and Other Platforms', 6)
+insert into unit (unit_name, unit_semester) values ('Game Engine Development', 6)
+insert into unit (unit_name, unit_semester) values ('Final Project', 6)
+
+
+
+
+
+
 
 
 
