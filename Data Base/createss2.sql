@@ -48,7 +48,6 @@ create table unitcourse (
 create table class (
 					class_id SERIAL not null,
 					class_name VARCHAR(15) not null,
-					class INT not null,
 					primary key (class_id)
 );
 
@@ -63,7 +62,6 @@ create table enrolment (
 
 create table schedule (
 					sche_id SERIAL not null,
-					sche_class_id INT not null,
 					sche_begin date not null,
 					sche_end date not null,
 					sche_date date not null,
@@ -73,9 +71,6 @@ create table schedule (
 create table presence (
 					pre_id SERIAL not null,
 					pre_date date not null,
-					pre_presence INT not null,
-					pre_enroll_id INT not null,
-					pre_sche_id INT not null,
 					primary key (pre_id)
 );
 
