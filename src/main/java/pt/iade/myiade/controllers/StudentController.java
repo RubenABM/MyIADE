@@ -44,7 +44,7 @@ public class StudentController{
         else return _student.get();
     }
 
-    @GetMapping(path = "/{email}", produces=
+    @GetMapping(path = "/{email}/email", produces=
     MediaType.APPLICATION_JSON_VALUE)
     public Student getStudentInfoByEmail(@PathVariable String email) 
     {
