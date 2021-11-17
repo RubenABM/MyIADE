@@ -70,8 +70,8 @@ A nossa app será direcionada aos diversos alunos e docentes da faculdade, possu
 
 Como já referimos anteriormente o IADE já possui uma app móvel. A mesma não está atualizada e possui um design não adequado à atualidade.
 Procurámos outras aplicações semelhantes a esta em outros estabelecimentos de ensino, sendo eles:
-- Universidade Lusofona
-- Faculdade de Ciencias 
+- Universidade Lusófona
+- Faculdade de Ciências 
 
 Com base na nossa pesquisa conferimos que, em geral, as aplicações são sempre bastante semelhantes, possuindo as mesmas opções básicas, como por exemplo conferir notas e horários.
 Com a nossa aplicação iremos inovador este estigma por entre estas aplicações, inovando nas opções fornecidas.
@@ -99,7 +99,7 @@ O André Santos é um jovem de 21 anos, atualmente é estudante do 3ºano do cur
 
 ###### (Persona 2)
 
-A Bruna Sousa é uma jovem de 19 anos, é estudante do IADE, 1ºano, frequentando o curso de fotografia. A Bruna possui nacionalidade portuguesa, é natural do Porto, mas atualmente vive em Lisboa para estar mais próxima da universidade. A Bruna gosta de tirar fotografias nos seus tempos livres e jogar jogos de tabuleiro. A Bruna possui uma familia pequena, tendo perdido po pai enquanto era bastante pequena. A Bruna sempre quis uma maneira rápida e fácil de consultar as informações acerca do seu curso, com esta aplicação irá conseguir fazê-lo.         
+A Bruna Sousa é uma jovem de 19 anos, é estudante do IADE, 1ºano, frequentando o curso de fotografia. A Bruna possui nacionalidade portuguesa, é natural do Porto, mas atualmente vive em Lisboa para estar mais próxima da universidade. A Bruna gosta de tirar fotografias nos seus tempos livres e jogar jogos de tabuleiro. A Bruna possui uma familia pequena, tendo perdido o pai enquanto era bastante pequena. A Bruna sempre quis uma maneira rápida e fácil de consultar as informações acerca do seu curso, com esta aplicação irá conseguir fazê-lo.         
 
 ###### (Persona 3)
 
