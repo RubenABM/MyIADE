@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import pt.iade.myiade.models.Student;
 import pt.iade.myiade.models.exceptions.NotFoundException;
+import pt.iade.myiade.models.exceptions.NotFoundException2;
 import pt.iade.myiade.models.repositories.StudentRepository;
 //import pt.iade.myiade.models.responses.Response;
 
@@ -46,13 +47,13 @@ public class StudentController{
 
     @GetMapping(path = "/{email}/{password}", produces=
     MediaType.APPLICATION_JSON_VALUE)
-    public int getStudentInfoByEmail(@PathVariable String email, @PathVariable String password) 
+    public Student getStudentInfoByEmail(@PathVariable String email, @PathVariable String password) 
     {
         logger.info("Sending student with email " + email + " and password " + password);
         Optional<Student> _student = studentRepository.findByEmailAndPassword(email, password);
         if (_student.isEmpty())
-        throw new NotFoundException("" + email , "Student", "id");
-        else return _student.get().getId();
+        throw new NotFoundException2("" + email , "Student", "email", password);
+        else return _student.get();
     }
 }
 
