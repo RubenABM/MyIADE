@@ -51,7 +51,7 @@ create table class (
 					primary key (class_id)
 );
 
-create table enrolment (
+create table enrollment (
 					enrol_id SERIAL not null,
 					enrol_stu_id INT not null,
 					enrol_class_id INT not null,
