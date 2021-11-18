@@ -44,15 +44,15 @@ public class StudentController{
         else return _student.get();
     }
 
-    @GetMapping(path = "/{email}/email", produces=
+    @GetMapping(path = "/{email}/{password}", produces=
     MediaType.APPLICATION_JSON_VALUE)
-    public Student getStudentInfoByEmail(@PathVariable String email) 
+    public int getStudentInfoByEmail(@PathVariable String email, @PathVariable String password) 
     {
-        logger.info("Sending student with email " + email);
-        Optional<Student> _student = studentRepository.findByEmail(email);
+        logger.info("Sending student with email " + email + " and password " + password);
+        Optional<Student> _student = studentRepository.findByEmailAndPassword(email, password);
         if (_student.isEmpty())
-        throw new NotFoundException("" + email, "Student", "id");
-        else return _student.get();
+        throw new NotFoundException("" + email , "Student", "id");
+        else return _student.get().getId();
     }
 }
 
