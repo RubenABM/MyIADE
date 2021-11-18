@@ -41,19 +41,19 @@ create table unitcourses (
 					unitcour_id SERIAL not null,
 					unitcour_unit_id INT not null,
 					unitcour_cour_id INT not null,
-					primary key (unitcourse_id)
+					primary key (unitcour_id)
 );
 
 create table classes (
-					class_id SERIAL not null,
-					class_name VARCHAR(15) not null,
-					primary key (class_id)
+					cla_id SERIAL not null,
+					cla_name VARCHAR(15) not null,
+					primary key (cla_id)
 );
 
 create table enrollments (
 					enroll_id SERIAL not null,
 					enroll_stu_id INT not null,
-					enroll_class_id INT not null,
+					enroll_cla_id INT not null,
 					enroll_grade INT,
 					enroll_date date not null,
 					primary key (enroll_id) 
@@ -87,7 +87,7 @@ create table clapresches (
 					cps_id SERIAL not null,
 					cps_cla_id INT not null,
 					cps_unitcour_id INT not null,
-					primary key (info_id)
+					primary key (cps_id)
 );
 
 alter table enrollments
@@ -97,7 +97,7 @@ ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 alter table enrollments
 add constraint class_fk_enrollments
-foreign key (enroll_class_id) references classes(class_id)
+foreign key (enroll_cla_id) references classes(cla_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 alter table unitcourses 
@@ -111,8 +111,8 @@ foreign key (unitcour_cour_id) references courses(cour_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 alter table schedules 
-add constraint schedule_fk_cpapresches
-foreign key (sche_cps_id) references classes(cps_id)
+add constraint schedule_fk_clapresches
+foreign key (sche_cps_id) references clapresches(cps_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 alter table presences 
@@ -121,13 +121,13 @@ foreign key (pre_cps_id) references clapresches(cps_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 alter table uniteachers 
-add constraint uniteacher_fk_unitcourses
+add constraint uniteachers_fk_unitcourses
 foreign key (unitte_unitcour_id) references unitcourses(unitcour_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 alter table uniteachers 
-add constraint uniteacher_fk_teachers
-foreign key (unitte_teacher_id) references teachers(teach_id)
+add constraint uniteachers_fk_teachers
+foreign key (unitte_teach_id) references teachers(teach_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 alter table clapresches 
