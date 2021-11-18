@@ -47,7 +47,7 @@ public class StudentController{
 
     @GetMapping(path = "/{email}/{password}", produces=
     MediaType.APPLICATION_JSON_VALUE)
-    public Student getStudentInfoByEmail(@PathVariable String email, @PathVariable String password) 
+    public Student getStudentInfoByEmailAndPassword(@PathVariable String email, @PathVariable String password) 
     {
         logger.info("Sending student with email " + email + " and password " + password);
         Optional<Student> _student = studentRepository.findByEmailAndPassword(email, password);
