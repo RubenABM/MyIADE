@@ -149,9 +149,18 @@ Erros:
     "path": "/api/students/0"
 }
 
+#### Apresentção da informção de um estudante através do email e da password
+###### (Devolve a informação referente a cada estudante pelo seu emial e password)
+##### Url: Url: myiade.herokuapp.com/api/students/{email}/{password}  (get)
+##### Parâmetros: id - inteiro positivo que corresponde ao id do estudante 
+Resultado:
+{
+   "id":1,"name":"André Santos","phone":925478589,"email":"andres@iade.pt","address":"lisboa","password":"11445226","gender":"M","bdate":"2000-05-21","civilNumber":32541255}     
+}
+
 #### Obter as notas do estudante através do id associado a um curso e uma uc
-###### (Irá devolver uma nota de um estudante tendo por base o id associado a um curso e uc)
-##### Url: myiade.herokuapp.com/api/students/{id}/grade (get)
+###### (Irá devolver as notas de um estudante tendo por base o id associado a um curso e uc)
+##### Url: myiade.herokuapp.com/api/students/{id}/grades (get)
 ##### Parâmetros: id - inteiro positivo que corresponde ao id associado a um curso e uc
 
 Resultado:
