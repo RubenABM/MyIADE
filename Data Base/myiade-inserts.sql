@@ -1,8 +1,8 @@
-insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('André Santos',to_date('2000-05-21','YYYY.MM.DD'),925478589,'andres@iade.pt','lisboa','andreiade', 'M', 32541255); 
-insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('Bruna Sousa',to_date('2002-01-02','YYYY.MM.DD'),965544324,'brunas@iade.pt','lisboa','brunaiade', 'F', 77553844);  
-insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('Fábio Santos',to_date('2001-06-20','YYYY.MM.DD'),912239954,'fabios@iade.pt','lisboa','fabioiade', 'M', 33452252);
-insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('Beatriz Carreira',to_date('2001-08-20','YYYY.MM.DD'),927712439,'beatrizc@iade.pt','lisboa','beatriziade', 'F', 77884434); 
-insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('Diogo José',to_date('2000-11-02','YYYY.MM.DD'),963733483,'diogoj@iade.pt','lisboa','diogoiade', 'M', 43453295);
+insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('André Santos',to_date('2000-05-21','YYYY.MM.DD'),925478589,'andres@iade.pt','Rua de Lisboa, Nº57 2ºDireito, 1000-001 Lisboa','andreiade', 'M', 32541255); 
+insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('Bruna Sousa',to_date('2002-01-02','YYYY.MM.DD'),965544324,'brunas@iade.pt','Rua dos Açores, Nº50 1ºEsquerdo, 1001-002 Lisboa','brunaiade', 'F', 77553844);  
+insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('Fábio Santos',to_date('2001-06-20','YYYY.MM.DD'),912239954,'fabios@iade.pt','Rua de Lisboa, Nº57 3ºDireito, 1000-001 Lisboa','fabioiade', 'M', 33452252);
+insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('Beatriz Carreira',to_date('2001-08-20','YYYY.MM.DD'),927712439,'beatrizc@iade.pt','Rua Almirante Barroso, Nº20 8ºDireito, 1005-003 Lisboa','beatriziade', 'F', 77884434); 
+insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('Diogo José',to_date('2000-11-02','YYYY.MM.DD'),963733483,'diogoj@iade.pt','Rua Agostinho Lourenço, Nº2 10ºEsquerdo, 1010-008 Lisboa','diogoiade', 'M', 43453295);
 
 insert into courses (cour_name) values ('Engenharia Informática');
 insert into courses (cour_name) values ('Informática de Gestão');
@@ -41,9 +41,9 @@ insert into units (unit_name, unit_semester) values ('Sistemas Operativos', 6);
 insert into units (unit_name, unit_semester) values ('Compiladores', 6);
 insert into units (unit_name, unit_semester) values ('Project Factory', 6);
 insert into units (unit_name, unit_semester) values ('Ética e Deontologia Profissional', 6);
-insert into units (unit_name, unit_semester) values ('Empreendedorismo - Base Tecnológica', 6); -34
+insert into units (unit_name, unit_semester) values ('Empreendedorismo - Base Tecnológica', 6);
 
-insert into units (unit_name, unit_semester) values ('Matemática', 1); -35
+insert into units (unit_name, unit_semester) values ('Matemática', 1);
 insert into units (unit_name, unit_semester) values ('Arquitetura de Sistemas de Informação', 1);
 insert into units (unit_name, unit_semester) values ('Gestão Empresarial', 1);
 insert into units (unit_name, unit_semester) values ('Ciência, Fontes e Métodos', 1);
@@ -74,9 +74,9 @@ insert into units (unit_name, unit_semester) values ('Business Process Managemen
 insert into units (unit_name, unit_semester) values ('Gestão de Projetos Informáticos', 6);
 insert into units (unit_name, unit_semester) values ('Empreendedorismo - Base Tecnológica', 6);
 insert into units (unit_name, unit_semester) values ('Ética e Deontologia Profissional/Voluntariado', 6);
-insert into units (unit_name, unit_semester) values ('Projeto Final', 6); -66
+insert into units (unit_name, unit_semester) values ('Projeto Final', 6);
 
-insert into units (unit_name, unit_semester) values ('Math, Physics and Games I', 1); -67
+insert into units (unit_name, unit_semester) values ('Math, Physics and Games I', 1);
 insert into units (unit_name, unit_semester) values ('Programming Fundamentals', 1);
 insert into units (unit_name, unit_semester) values ('Visual Art for Games', 1);
 insert into units (unit_name, unit_semester) values ('Game Production', 1);
@@ -109,7 +109,7 @@ insert into units (unit_name, unit_semester) values ('Business Model for Games',
 insert into units (unit_name, unit_semester) values ('Usability and user experience', 6);
 insert into units (unit_name, unit_semester) values ('Integration with Social Networks and Other Platforms', 6);
 insert into units (unit_name, unit_semester) values ('Game Engine Development', 6);
-insert into units (unit_name, unit_semester) values ('Final Project', 6); -100
+insert into units (unit_name, unit_semester) values ('Final Project', 6); 
 
 insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,1);
 insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,2);
