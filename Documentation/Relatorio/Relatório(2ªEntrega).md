@@ -58,11 +58,11 @@ O objetivo deste projeto é desenvolver uma app móvel da faculdade, que corresp
 
 A nossa app será direcionada aos diversos alunos e docentes da faculdade, possuindo diversas funcionalidades:
 - Consulta de notas, horários, propinas e noticias;
-- Chat estudantil através do número de estudante;
 - Encaminhamento para o e-mail do aluno;
 - Sistema de presenças através de QR Code disponibilizado pelo docente, sendo necessário estar ligado à rede da faculdade para confirmar a localização;
 - Sistema de notificações que indique a próxima aula, a respetiva sala, e se possível o trajeto.
-- Marcação de deslocações à secretaria ou algum órgão da faculdade.
+- Marcação de deslocações à secretaria ou algum órgão da faculdade;
+- Repositório com os testes das diferentes cadeiras de anos anteriores e respetivas respostas;
 
 * * *
 
@@ -80,14 +80,21 @@ Com a nossa aplicação iremos inovador este estigma por entre estas aplicaçõe
 
 ### Guiões de teste:
 
+Antes de efetuar os guiões deve inserir o email e a password do estudante a que quere aceder.
+Email para testes: andres@iade.pt
+Password para testes: andreiade
+
 ###### (Leitura do QR Code para marcação da presença)
-1º - No menu principal irá existir uma opção com o nome "Presenças", que irá abrir um menu onde irá possuir 2 opções (marcar presença e presenças). Irá entrar na opção "Marcar presença", será pedido o acesso à câmara do telemóvel, depois de permitir o acesso irá ler o QR Code. Será automaticamente marcada a presença na respetiva aula. 
+1º - Quando abrir a aplicação irão ser mostradas as noticias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "home", "O meu curso", "Presenças", "Área Financeira", "Campus", "O meu Perfil" e "Terminar sessão". Irá entrar na opção "Presenças", sendo mostradas 2 opções, "Marcar presença" e "Presenças". Irá entrar na opção "Marcar presença", será pedido o acesso à câmara do telemóvel, depois de permitir o acesso irá ler o QR Code. Será automaticamente marcada a presença na respetiva aula. 
 
 ###### (Mostrar o mapa da sala)
 2º - 5 minutos antes da aula marcada começar, irá receber uma notificação com o nome da respetiva aula e o número da sala de aula. Irá ter de clicar na notificação recebida de forma a ser mostrada a informação completa acerca da aula (Nome da cadeira, respetiva sala, nome do docente, hora de inicio e de fim). De seguida terá de clicar no botão "localizar sala de aula", sendo mostrado um mapa do andar com a respetiva sala marcada e trajeto.
 
 ###### (Conferir notas do aluno)
-3º - No menu principal da aplicação irá possuir um simbolo com 3 barras no canto superior esquerdo. Ao entrar nesse menu irão ser mostradas 4 opções, o meu curso, área financeira, campus e chat. Ao entrar na aba o meu curso, irão ser mostradas 4 opções, aulas, calendário, percurso e presenças. Irá entrar na aba percurso e escolher o respetivo semestre que deseja consultar as notas. Serão mostradas as notas das cadeiras por ordem alfabética.
+3º - Quando abrir a aplicação irão ser mostradas as notícias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "home", "O meu curso", "Presenças", "Área Financeira", "Campus", "O meu Perfil" e "Terminar sessão". Irá entrar na aba "O Meu Curso" e depois disso escolher o respetivo semestre que deseja consultar as notas. Serão mostradas as notas das cadeiras por ordem alfabética.
+
+##### (Conferir informações referentes ao aluno)
+4º - Quando abrir a aplicação irão ser mostradas as noticias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "home", "O meu curso", "Presenças", "Área Financeira", "Campus", "O meu Perfil" e "Terminar sessão". Irá entrar na opção "Presenças", sendo mostradas 2 opções, "Marcar presença" e "Presenças". Irá entrar na opção "O Meu Perfil" e serão mostradas as informações referentes ao estudante, como data de nascimento, número do cartão de cidadão, número de telefone, email e residência.
 
 * * *
 
