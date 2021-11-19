@@ -41,9 +41,9 @@ insert into units (unit_name, unit_semester) values ('Sistemas Operativos', 6);
 insert into units (unit_name, unit_semester) values ('Compiladores', 6);
 insert into units (unit_name, unit_semester) values ('Project Factory', 6);
 insert into units (unit_name, unit_semester) values ('Ética e Deontologia Profissional', 6);
-insert into units (unit_name, unit_semester) values ('Empreendedorismo - Base Tecnológica', 6);
+insert into units (unit_name, unit_semester) values ('Empreendedorismo - Base Tecnológica', 6); -34
 
-insert into units (unit_name, unit_semester) values ('Matemática', 1);
+insert into units (unit_name, unit_semester) values ('Matemática', 1); -35
 insert into units (unit_name, unit_semester) values ('Arquitetura de Sistemas de Informação', 1);
 insert into units (unit_name, unit_semester) values ('Gestão Empresarial', 1);
 insert into units (unit_name, unit_semester) values ('Ciência, Fontes e Métodos', 1);
@@ -74,9 +74,9 @@ insert into units (unit_name, unit_semester) values ('Business Process Managemen
 insert into units (unit_name, unit_semester) values ('Gestão de Projetos Informáticos', 6);
 insert into units (unit_name, unit_semester) values ('Empreendedorismo - Base Tecnológica', 6);
 insert into units (unit_name, unit_semester) values ('Ética e Deontologia Profissional/Voluntariado', 6);
-insert into units (unit_name, unit_semester) values ('Projeto Final', 6);
+insert into units (unit_name, unit_semester) values ('Projeto Final', 6); -66
 
-insert into units (unit_name, unit_semester) values ('Math, Physics and Games I', 1);
+insert into units (unit_name, unit_semester) values ('Math, Physics and Games I', 1); -67
 insert into units (unit_name, unit_semester) values ('Programming Fundamentals', 1);
 insert into units (unit_name, unit_semester) values ('Visual Art for Games', 1);
 insert into units (unit_name, unit_semester) values ('Game Production', 1);
@@ -109,7 +109,42 @@ insert into units (unit_name, unit_semester) values ('Business Model for Games',
 insert into units (unit_name, unit_semester) values ('Usability and user experience', 6);
 insert into units (unit_name, unit_semester) values ('Integration with Social Networks and Other Platforms', 6);
 insert into units (unit_name, unit_semester) values ('Game Engine Development', 6);
-insert into units (unit_name, unit_semester) values ('Final Project', 6);
+insert into units (unit_name, unit_semester) values ('Final Project', 6); -100
+
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,1)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,2)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,3)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,4)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,5)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,6)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,7)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,8)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,9)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,10)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,11)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,12)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,13)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,14)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,15)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,16)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,17)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,18)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,19)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,20)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,21)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,22)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,23)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,24)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,25)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,26)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,27)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,28)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,29)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,30)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,31)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,32)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,33)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,34)
 
 commit;
 
