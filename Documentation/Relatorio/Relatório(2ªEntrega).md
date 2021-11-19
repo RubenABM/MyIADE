@@ -123,7 +123,7 @@ Resultado:
 [
 {
    "id":1,"name":"André Santos","phone":925478589,"email":"andres@iade.pt","address":"Rua de Lisboa, Nº57 2ºDireito, 1000-001 Lisboa","password":"andreiade","gender":"M","bdate":"2000-05-21","civilNumber":32541255
-}
+}  
 {  
    "id":2,"name":"Bruna Sousa","phone":965544324,"email":"brunas@iade.pt","address":"Rua dos Açores, Nº50 1ºEsquerdo, 1001-002 Lisboa","password":"brunaiade","gender":"F","bdate":"2002-01-02","civilNumber":77553844}
 }
