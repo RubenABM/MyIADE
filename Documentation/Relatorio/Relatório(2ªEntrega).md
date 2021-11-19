@@ -149,7 +149,7 @@ Erros:
     "path": "/api/students/0"
 }
 
-#### Apresentsção da informção de um estudante através do email e da password
+#### Apresentação da informção de um estudante através do email e da password
 ###### (Devolve a informação referente a cada estudante pelo seu emial e password)
 ##### Url: Url: myiade.herokuapp.com/api/students/{email}/{password}  (get)
 ##### Parâmetros: email - string que corresponde ao email do estudante e password - string que corresponde à password do estudante
