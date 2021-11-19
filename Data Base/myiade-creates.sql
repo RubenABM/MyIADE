@@ -11,7 +11,7 @@ create table students (
 					primary key (stu_id)	
 );
 
-create table teacher (
+create table teachers (
 					teach_id SERIAL not null,
 					teach_name VARCHAR(100) not null,
 					teach_bdate date not null, 
@@ -24,114 +24,118 @@ create table teacher (
 					primary key (teach_id)	
 );
 		     		     
-create table course (
+create table courses (
 					cour_id SERIAL not null,
 					cour_name VARCHAR(40) not null, 
 					primary key (cour_id)
 );
 
-create table unit (
+create table units (
 					unit_id SERIAL not null,
-					unit_name VARCHAR(40) not null, 
+					unit_name VARCHAR(60) not null, 
 					unit_semester INT not null,
 					primary key (unit_id)
 );
 
-create table unitcourse (
-					unitcourse_id SERIAL not null,
-					unit_id INT not null,
-					cour_id INT not null,
-					primary key (unitcourse_id)
+create table unitcourses (
+					unitcour_id SERIAL not null,
+					unitcour_unit_id INT not null,
+					unitcour_cour_id INT not null,
+					primary key (unitcour_id)
 );
 
-create table class (
-					class_id SERIAL not null,
-					class_name VARCHAR(15) not null,
-					class_unitcourse_id INT not null,
-					primary key (class_id)
+create table classes (
+					cla_id SERIAL not null,
+					cla_name VARCHAR(15) not null,
+					primary key (cla_id)
 );
 
-create table enrollment (
+create table enrollments (
 					enroll_id SERIAL not null,
 					enroll_stu_id INT not null,
-					enroll_class_id INT not null,
+					enroll_cla_id INT not null,
 					enroll_grade INT,
 					enroll_date date not null,
 					primary key (enroll_id) 
 );
 
-create table schedule (
+create table schedules (
 					sche_id SERIAL not null,
-					sche_class_id INT not null,
 					sche_begin date not null,
 					sche_end date not null,
 					sche_date date not null,
+					sche_cps_id INT not null,
 					primary key (sche_id)
 );
 
-create table presence (
+create table presences (
 					pre_id SERIAL not null,
 					pre_date date not null,
-					pre_presence INT not null,
-					pre_enroll_id INT not null,
-					pre_sche_id INT not null,
+					pre_cps_id INT not null,
 					primary key (pre_id)
 );
 
-create table uniteacher (
+create table uniteachers (
 					unitte_id SERIAL not null,
-					unitte_unitcourse_id INT not null,
-					unitte_teacher_id INT not null,
+					unitte_unitcour_id INT not null,
+					unitte_teach_id INT not null,
 					unitte_year date not null,
 					primary key (unitte_id)
 );
 
-alter table enrollment 
-add constraint students_fk_enrollment
+create table clapresches (
+					cps_id SERIAL not null,
+					cps_cla_id INT not null,
+					cps_unitcour_id INT not null,
+					primary key (cps_id)
+);
+
+alter table enrollments
+add constraint students_fk_enrollments
 foreign key (enroll_stu_id) references students(stu_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
-alter table enrollment 
-add constraint class_fk_enrollment
-foreign key (enroll_class_id) references class(class_id)
+alter table enrollments
+add constraint class_fk_enrollments
+foreign key (enroll_cla_id) references classes(cla_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
-alter table unitcourse 
-add constraint unitcourse_fk_unit
-foreign key (unit_id) references unit(unit_id)
+alter table unitcourses 
+add constraint unitcourse_fk_units
+foreign key (unitcour_unit_id) references units(unit_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
-alter table unitcourse 
-add constraint unitcourse_fk_course
-foreign key (cour_id) references course(cour_id)
+alter table unitcourses 
+add constraint unitcourse_fk_courses
+foreign key (unitcour_cour_id) references courses(cour_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
-alter table class 
-add constraint class_fk_unitcourse
-foreign key (class_unitcourse_id) references unitcourse(unitcourse_id)
+alter table schedules 
+add constraint schedule_fk_clapresches
+foreign key (sche_cps_id) references clapresches(cps_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
-alter table schedule 
-add constraint schedule_fk_class
-foreign key (sche_class_id) references class(class_id)
+alter table presences 
+add constraint presence_fk_clapresches
+foreign key (pre_cps_id) references clapresches(cps_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
-alter table presence 
-add constraint presence_fk_enrollment
-foreign key (pre_enroll_id) references enrollment(enroll_id)
+alter table uniteachers 
+add constraint uniteachers_fk_unitcourses
+foreign key (unitte_unitcour_id) references unitcourses(unitcour_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
-alter table presence 
-add constraint presence_fk_schedule
-foreign key (pre_sche_id) references schedule(sche_id)
+alter table uniteachers 
+add constraint uniteachers_fk_teachers
+foreign key (unitte_teach_id) references teachers(teach_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
-alter table uniteacher 
-add constraint uniteacher_fk_unitcourse
-foreign key (unitte_unitcourse_id) references unitcourse(unitcourse_id)
+alter table clapresches 
+add constraint clapresches_fk_unitcourses
+foreign key (cps_unitcour_id) references unitcourses(unitcour_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
-alter table uniteacher 
-add constraint uniteacher_fk_teacher
-foreign key (unitte_teacher_id) references teacher(teach_id)
+alter table clapresches
+add constraint clapresches_fk_classes
+foreign key (cps_cla_id) references classes(cla_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;

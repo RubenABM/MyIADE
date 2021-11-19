@@ -1,4 +1,4 @@
-![LOGO](./ue-iade-h75.png)    
+![LOGO](./ue-iade-h75.jpg)    
 
 # RELATÓRIO (1ªEntrega)
 
