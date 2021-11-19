@@ -111,40 +111,40 @@ insert into units (unit_name, unit_semester) values ('Integration with Social Ne
 insert into units (unit_name, unit_semester) values ('Game Engine Development', 6);
 insert into units (unit_name, unit_semester) values ('Final Project', 6); -100
 
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,1)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,2)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,3)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,4)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,5)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,6)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,7)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,8)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,9)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,10)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,11)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,12)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,13)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,14)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,15)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,16)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,17)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,18)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,19)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,20)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,21)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,22)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,23)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,24)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,25)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,26)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,27)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,28)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,29)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,30)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,31)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,32)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,33)
-insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,34)
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,1);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,2);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,3);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,4);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,5);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,6);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,7);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,8);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,9);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,10);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,11);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,12);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,13);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,14);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,15);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,16);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,17);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,18);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,19);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,20);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,21);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,22);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,23);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,24);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,25);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,26);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,27);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,28);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,29);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,30);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,31);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,32);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,33);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (1,34);
 
 commit;
 
