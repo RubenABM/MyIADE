@@ -60,7 +60,7 @@ insert into units (unit_name, unit_semester) values ('Contabilidade', 3);
 insert into units (unit_name, unit_semester) values ('Design de Interfaces Gráficas', 3);
 insert into units (unit_name, unit_semester) values ('Desenvolvimento de Interfaces Web', 3);
 insert into units (unit_name, unit_semester) values ('Cibersegurança', 4);
-insert into units (unit_name, unit_semester) values ('Redes e Comunicação de Dados	', 4);
+insert into units (unit_name, unit_semester) values ('Redes e Comunicação de Dados', 4);
 insert into units (unit_name, unit_semester) values ('Gestão Financeira', 4);
 insert into units (unit_name, unit_semester) values ('Administração e Gestão de Informação', 4);
 insert into units (unit_name, unit_semester) values ('Gestão de Recursos Humanos', 5);
