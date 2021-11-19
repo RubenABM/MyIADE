@@ -1,8 +1,8 @@
-insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('André Santos',to_date('2000-05-21','YYYY.MM.DD'),925478589,'andres@iade.pt','lisboa','11445226', 'M', 32541255); 
-insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('Bruna Sousa',to_date('2002-01-02','YYYY.MM.DD'),965544324,'brunas@iade.pt','lisboa','23232335', 'F', 77553844);  
-insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('Fábio Santos',to_date('2001-06-20','YYYY.MM.DD'),912239954,'fabios@iade.pt','lisboa','55442356', 'M', 33452252);
-insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('Beatriz Carreira',to_date('2001-08-20','YYYY.MM.DD'),927712439,'beatrizc@iade.pt','lisboa','11445226', 'F', 77884434); 
-insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('Diogo José',to_date('2000-11-02','YYYY.MM.DD'),963733483,'diogoj@iade.pt','lisboa','23232335', 'M', 43453295);
+insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('André Santos',to_date('2000-05-21','YYYY.MM.DD'),925478589,'andres@iade.pt','lisboa','andreiade', 'M', 32541255); 
+insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('Bruna Sousa',to_date('2002-01-02','YYYY.MM.DD'),965544324,'brunas@iade.pt','lisboa','brunaiade', 'F', 77553844);  
+insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('Fábio Santos',to_date('2001-06-20','YYYY.MM.DD'),912239954,'fabios@iade.pt','lisboa','fabioiade', 'M', 33452252);
+insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('Beatriz Carreira',to_date('2001-08-20','YYYY.MM.DD'),927712439,'beatrizc@iade.pt','lisboa','beatriziade', 'F', 77884434); 
+insert into students (stu_name, stu_bdate, stu_phone, stu_email, stu_address, stu_password, stu_gender, stu_civilnum) values ('Diogo José',to_date('2000-11-02','YYYY.MM.DD'),963733483,'diogoj@iade.pt','lisboa','diogoiade', 'M', 43453295);
 
 insert into courses (cour_name) values ('Engenharia Informática');
 insert into courses (cour_name) values ('Informática de Gestão');
