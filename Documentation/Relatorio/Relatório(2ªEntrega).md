@@ -94,7 +94,7 @@ Password para testes: andreiade
 3º - Quando abrir a aplicação irão ser mostradas as notícias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "home", "O meu curso", "Presenças", "Área Financeira", "Campus", "O meu Perfil" e "Terminar sessão". Irá entrar na aba "O Meu Curso" e depois disso escolher o respetivo semestre que deseja consultar as notas. Serão mostradas as notas das cadeiras por ordem alfabética.
 
 ##### (Conferir informações referentes ao aluno)
-4º - Quando abrir a aplicação irão ser mostradas as noticias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "home", "O meu curso", "Presenças", "Área Financeira", "Campus", "O meu Perfil" e "Terminar sessão". Irá entrar na opção "Presenças", sendo mostradas 2 opções, "Marcar presença" e "Presenças". Irá entrar na opção "O Meu Perfil" e serão mostradas as informações referentes ao estudante, como data de nascimento, número do cartão de cidadão, número de telefone, email e residência.
+4º - Quando abrir a aplicação irão ser mostradas as noticias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "home", "O meu curso", "Presenças", "Área Financeira", "Campus", "O meu Perfil" e "Terminar sessão". Irá entrar na opção "O Meu Perfil" e serão mostradas as informações referentes ao estudante, como data de nascimento, número do cartão de cidadão, número de telefone, email e residência.
 
 * * *
 
