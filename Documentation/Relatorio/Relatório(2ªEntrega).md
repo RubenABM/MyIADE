@@ -93,7 +93,7 @@ Password para testes: andreiade
 ###### (Conferir notas do aluno)
 3º - Quando abrir a aplicação irão ser mostradas as notícias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "home", "O meu curso", "Presenças", "Área Financeira", "Campus", "O meu Perfil" e "Terminar sessão". Irá entrar na aba "O Meu Curso" e depois disso escolher o respetivo semestre que deseja consultar as notas. Serão mostradas as notas das cadeiras por ordem alfabética.
 
-##### (Conferir informações referentes ao aluno)
+###### (Conferir informações referentes ao aluno)
 4º - Quando abrir a aplicação irão ser mostradas as noticias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "home", "O meu curso", "Presenças", "Área Financeira", "Campus", "O meu Perfil" e "Terminar sessão". Irá entrar na opção "O Meu Perfil" e serão mostradas as informações referentes ao estudante, como data de nascimento, número do cartão de cidadão, número de telefone, email e residência.
 
 * * *
@@ -150,7 +150,7 @@ Erros:
 }
 
 #### Apresentação da informação de um estudante através do email e da password
-###### (Devolve a informação referente a cada estudante pelo seu emial e password)
+###### (Devolve a informação referente a cada estudante pelo seu email e password)
 ##### Url: Url: myiade.herokuapp.com/api/students/{email}/{password}  (get)
 ##### Parâmetros: email - string que corresponde ao email do estudante e password - string que corresponde à password do estudante
 Resultado:  
