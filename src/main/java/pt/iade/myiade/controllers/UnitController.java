@@ -13,6 +13,7 @@ import pt.iade.myiade.models.Unit;
 import pt.iade.myiade.models.exceptions.NotFoundException;
 import pt.iade.myiade.models.repositories.UnitRepository;
 //import pt.iade.myiade.models.responses.Response;
+import pt.iade.myiade.models.views.UnitCoursesView;
 
 import java.util.Optional;
 
@@ -43,4 +44,19 @@ public class UnitController{
         throw new NotFoundException("" + id, "Unit", "id");
         else return _unit.get();
     }
+
+    @GetMapping(path = "/unitcourse")
+    public Iterable<UnitCoursesView> getUnitPlans() {
+    logger.info("Sending all courses and units");
+    return unitRepository.findAllUnitsCourse();
+    }
+    @GetMapping(path="/unitcourse/{course}")
+    public Iterable<UnitCoursesView> getUnitPlan(@PathVariable String course) {
+    logger.info("Units with course " + course);
+    return unitRepository.findUnitsByCourse(course);
+}
+    
+    
+    
+
 }
