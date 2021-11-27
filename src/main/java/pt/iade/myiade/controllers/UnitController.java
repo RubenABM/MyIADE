@@ -46,17 +46,16 @@ public class UnitController{
     }
 
     @GetMapping(path = "/unitcourse")
-    public Iterable<UnitCoursesView> getUnitPlans() {
-    logger.info("Sending all courses and units");
-    return unitRepository.findAllUnitsCourse();
+    public Iterable<UnitCoursesView> getUnitPlans() 
+    {
+        logger.info("Sending all courses and units");
+        return unitRepository.findAllUnitsCourse();
     }
-    @GetMapping(path="/unitcourse/{course}")
-    public Iterable<UnitCoursesView> getUnitPlan(@PathVariable String course) {
-    logger.info("Units with course " + course);
-    return unitRepository.findUnitsByCourse(course);
-}
-    
-    
-    
 
+    @GetMapping(path="/unitcourse/{course}")
+    public Iterable<UnitCoursesView> getUnitPlan(@PathVariable String course) 
+    {
+        logger.info("Units with course " + course);
+        return unitRepository.findUnitsByCourse(course);
+    }
 }
