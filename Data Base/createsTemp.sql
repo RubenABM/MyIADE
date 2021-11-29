@@ -87,7 +87,7 @@ create table clapresches (
 create table resources (
 					res_id SERIAL not null,
 					res_unitcour_id INT not null,
-          res_url VARCHAR(200) not null,
+          				res_url VARCHAR(200) not null,
 					primary key (res_id)
 );
 
