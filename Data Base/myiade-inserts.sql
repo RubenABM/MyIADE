@@ -214,6 +214,53 @@ insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (3,98);
 insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (3,99);
 insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (3,100);
 
+insert into classes (cla_name) values ('LEI01M01');
+insert into classes (cla_name) values ('LEI02M01');
+insert into classes (cla_name) values ('LEI03M01');
+insert into classes (cla_name) values ('LIG01M01');
+insert into classes (cla_name) values ('LIG02M01');
+insert into classes (cla_name) values ('LIG03M01');
+insert into classes (cla_name) values ('LGD01M01');
+insert into classes (cla_name) values ('LGD02M01');
+insert into classes (cla_name) values ('LGD03M01');
+
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (1,1);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (1,2);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (1,3);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (1,4);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (1,5);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (1,6);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (1,7);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (1,8);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (1,9);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (1,10);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (1,11);
+
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (2,12);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (2,13);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (2,14);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (2,15);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (2,16);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (2,17);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (2,18);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (2,19);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (2,20);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (2,21);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (2,22);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (2,23);
+
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (3,24);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (3,25);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (3,26);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (3,27);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (3,28);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (3,29);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (3,30);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (3,31);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (3,32);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (3,33);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (3,34);
+
 commit;
 
 
