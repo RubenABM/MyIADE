@@ -2,7 +2,7 @@ create table students (
 					stu_id SERIAL not null,
 					stu_name VARCHAR(100) not null,
 					stu_bdate date not null, 
-					stu_phone INT not null,
+					stu_phone VARCHAR(30) not null,
 					stu_email VARCHAR(30), 
 					stu_address VARCHAR(250),					
 					stu_password VARCHAR(64),				
@@ -14,7 +14,7 @@ create table students (
 create table teachers (
 					teach_id SERIAL not null,
 					teach_name VARCHAR(100) not null, 
-					teach_phone INT not null,
+					teach_phone VARCAHR(30) not null,
 					teach_email VARCHAR(30), 														
 					primary key (teach_id)	
 );
@@ -48,7 +48,7 @@ create table classes (
 create table enrollments (
 					enroll_id SERIAL not null,
 					enroll_stu_id INT not null,
-					enroll_cla_id INT not null,
+					enroll_cps_id INT not null,
 					enroll_grade INT,
 					enroll_date date not null,
 					primary key (enroll_id) 
@@ -59,13 +59,15 @@ create table schedules (
 					sche_begin date not null,
 					sche_end date not null,
 					sche_cps_id INT not null,
+					sche_qr INT not null,
 					primary key (sche_id)
 );
 
 create table presences (
 					pre_id SERIAL not null,
 					pre_date date not null,
-					pre_cps_id INT not null,
+					pre_sche_id INT not null,
+					pre_stu_id INT not null,
 					primary key (pre_id)
 );
 
@@ -97,8 +99,8 @@ foreign key (enroll_stu_id) references students(stu_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 alter table enrollments
-add constraint class_fk_enrollments
-foreign key (enroll_cla_id) references classes(cla_id)
+add constraint class_fk_clapresches
+foreign key (enroll_cps_id) references clapresches(cps_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 alter table unitcourses 
@@ -117,8 +119,13 @@ foreign key (sche_cps_id) references clapresches(cps_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 alter table presences 
-add constraint presence_fk_clapresches
-foreign key (pre_cps_id) references clapresches(cps_id)
+add constraint presence_fk_schedules
+foreign key (pre_sche_id) references clapresches(sche_id)
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+alter table presences 
+add constraint presence_fk_students
+foreign key (pre_stu_id) references students(stu_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 alter table uniteachers 
