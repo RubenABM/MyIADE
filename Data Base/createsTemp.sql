@@ -14,7 +14,7 @@ create table students (
 create table teachers (
 					teach_id SERIAL not null,
 					teach_name VARCHAR(100) not null, 
-					teach_phone VARCAHR(30) not null,
+					teach_phone VARCHAR(30) not null,
 					teach_email VARCHAR(30), 														
 					primary key (teach_id)	
 );
@@ -120,7 +120,7 @@ ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 alter table presences 
 add constraint presence_fk_schedules
-foreign key (pre_sche_id) references clapresches(sche_id)
+foreign key (pre_sche_id) references schedules(sche_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 alter table presences 
