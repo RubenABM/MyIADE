@@ -341,6 +341,19 @@ insert into clapresches (cps_cla_id, cps_unitcour_id) values (8,98);
 insert into clapresches (cps_cla_id, cps_unitcour_id) values (8,99);
 insert into clapresches (cps_cla_id, cps_unitcour_id) values (8,100);
 
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (1,24,14,to_date('2019.09.28','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (1,25,12,to_date('2021.09.15','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (1,26,11,to_date('2021.09.15','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (1,27,10,to_date('2021.09.15','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (1,28,18,to_date('2021.09.15','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (1,29,15,to_date('2021.09.15','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (1,30,9,to_date('2021.09.15','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (1,31,12,to_date('2021.09.15','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (1,32,15,to_date('2021.09.15','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (1,33,17,to_date('2021.09.15','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (1,34,18,to_date('2021.09.15','YYYY.MM.DD'));
+
+
 
 
 commit;
