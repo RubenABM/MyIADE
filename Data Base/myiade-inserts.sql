@@ -427,6 +427,19 @@ insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date
 insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (7,102,14,to_date('2019.10.01','YYYY.MM.DD'));
 insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (7,103,18,to_date('2019.10.01','YYYY.MM.DD'));
 
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (8,82,15,to_date('2020.09.30','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (8,83,12,to_date('2020.09.30','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (8,84,13,to_date('2020.09.30','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (8,85,10,to_date('2020.09.30','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (8,86,05,to_date('2020.09.30','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (8,87,07,to_date('2020.09.30','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (8,88,12,to_date('2020.09.30','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (8,89,14,to_date('2020.09.30','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (8,90,12,to_date('2020.09.30','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (8,91,11,to_date('2020.09.30','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (8,92,10,to_date('2020.09.30','YYYY.MM.DD'));
+insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (8,93,15,to_date('2020.09.30','YYYY.MM.DD'));
+
 
 
 commit;
