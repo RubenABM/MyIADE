@@ -15,11 +15,10 @@ public interface UnitRepository extends CrudRepository<Unit,Integer>
     "inner join courses on unitcour_cour_id = cour_id";
 
     @Query(value=QueryFindUnitsCourse, nativeQuery=true)
-    Iterable<UnitCoursesView> findAllUnitsCourse();
+    Iterable<UnitCoursesView> findAllUnitsCourses();
 
     @Query(value = QueryFindUnitsCourse +
     " where cour_name=:course", nativeQuery = true)
-    Iterable<UnitCoursesView> findUnitsByCourse(
-    @Param("course") String course);
+    Iterable<UnitCoursesView> findUnitsByCourse(@Param("course") String course);
 
 }

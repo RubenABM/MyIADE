@@ -5,5 +5,4 @@ public interface UnitCoursesView {
     String getCourseName();
     String getUnitName();
 
-    
 }

@@ -14,6 +14,7 @@ import pt.iade.myiade.models.exceptions.NotFoundException;
 import pt.iade.myiade.models.exceptions.NotFoundException2;
 import pt.iade.myiade.models.repositories.StudentRepository;
 //import pt.iade.myiade.models.responses.Response;
+import pt.iade.myiade.models.views.GradesView;
 
 import java.util.Optional;
 
@@ -54,6 +55,20 @@ public class StudentController{
         if (_student.isEmpty())
         throw new NotFoundException2("" + email , "Student", "email", password);
         else return _student.get();
+    }
+
+    @GetMapping(path = "/grades")
+    public Iterable<GradesView> getStudentsGrades() 
+    {
+        logger.info("Sending all students and grades");
+        return studentRepository.findAllStudentsGrades();
+    }
+
+    @GetMapping(path="/grades/{id}")
+    public Iterable<GradesView> getStudentGradesByID(@PathVariable int id) 
+    {
+        logger.info("Grades with student id: " + id);
+        return studentRepository.findStudentsGradesByID(id);
     }
 }
 
