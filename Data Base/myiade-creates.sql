@@ -17,8 +17,7 @@ create table teachers (
 					teach_bdate date not null, 
 					teach_phone INT not null,
 					teach_email VARCHAR(30), 
-					teach_address VARCHAR(250),					
-					teach_password VARCHAR(64),				
+					teach_address VARCHAR(250),							
 					teach_gender CHAR(1) not null,
 					teach_civilnum INT not null, 						
 					primary key (teach_id)	
