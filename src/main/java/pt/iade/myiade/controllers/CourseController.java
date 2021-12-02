@@ -57,5 +57,5 @@ public class CourseController{
     {
         logger.info("Student course with student id " + id);
         return courseRepository.findStudentCourseByID(id);
-    }
+    } 
 }

@@ -10,7 +10,7 @@ import pt.iade.myiade.models.views.StudentCourseView;
 public interface CourseRepository extends CrudRepository<Course,Integer> 
 {
     String QueryFindStudentsCourse = 
-    "select stu_name studentName, cour_name courseName "+
+    "select distinct stu_name studentName, cour_name courseName "+
     "from clapresches inner join unitcourses on cps_unitcour_id = unitcour_id "+
     "inner join courses on unitcour_cour_id = cour_id "+
     "inner join units on unitcour_unit_id = unit_id  "+
@@ -21,7 +21,7 @@ public interface CourseRepository extends CrudRepository<Course,Integer>
     Iterable<StudentCourseView> findAllStudentsCourses();
 
     @Query(value = QueryFindStudentsCourse +
-    " where stu_id=:id group by stu_name, cour_name", nativeQuery = true)
+    " where stu_id=:id", nativeQuery = true)
     Iterable<StudentCourseView> findStudentCourseByID(@Param("id") int id);
 
 }
