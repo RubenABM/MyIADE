@@ -75,7 +75,6 @@ create table uniteachers (
 					unitte_id SERIAL not null,
 					unitte_unitcour_id INT not null,
 					unitte_teach_id INT not null,
-					unitte_year date not null,
 					primary key (unitte_id)
 );
 
