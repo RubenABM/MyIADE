@@ -21,7 +21,7 @@ public interface CourseRepository extends CrudRepository<Course,Integer>
     Iterable<StudentCourseView> findAllStudentsCourses();
 
     @Query(value = QueryFindStudentsCourse +
-    " where stu_id=:id group by stu_name, cour_name", nativeQuery = true)
+    " where stu_id=:id", nativeQuery = true)
     Iterable<StudentCourseView> findStudentCourseByID(@Param("id") int id);
 
 }
