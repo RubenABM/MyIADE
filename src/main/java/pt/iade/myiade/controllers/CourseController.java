@@ -13,6 +13,7 @@ import pt.iade.myiade.models.Course;
 import pt.iade.myiade.models.exceptions.NotFoundException;
 import pt.iade.myiade.models.repositories.CourseRepository;
 //import pt.iade.myiade.models.responses.Response;
+import pt.iade.myiade.models.views.StudentCourseView;
 
 import java.util.Optional;
 
@@ -42,5 +43,19 @@ public class CourseController{
         if (_course.isEmpty())
         throw new NotFoundException("" + id, "Course", "id");
         else return _course.get();
+    }
+
+    @GetMapping(path = "/studentscourse")
+    public Iterable<StudentCourseView> getStudentsCourses() 
+    {
+        logger.info("Sending all students and courses");
+        return courseRepository.findAllStudentsCourses();
+    }
+
+    @GetMapping(path="/studentscourse/{id}")
+    public Iterable<StudentCourseView> getStudentCourse(@PathVariable int id) 
+    {
+        logger.info("Student course with student id " + id);
+        return courseRepository.findStudentCourseByID(id);
     }
 }
