@@ -453,16 +453,16 @@ insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date
 insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (9,80,17,to_date('2021.09.29','YYYY.MM.DD'));
 insert into enrollments (enroll_stu_id, enroll_cps_id, enroll_grade, enroll_date) values (9,81,16,to_date('2021.09.29','YYYY.MM.DD'));
 
-insert into teachers (teach_name, teach_phone, teach_email) values ('Miguel Albertino','926632234','andres@iade.pt');
-insert into teachers (teach_name, teach_phone, teach_email) values ('Ana Silva','935443311','andres@iade.pt');
-insert into teachers (teach_name, teach_phone, teach_email) values ('José Viana','915322589','andres@iade.pt');
-insert into teachers (teach_name, teach_phone, teach_email) values ('Mariana Castro','915883920','andres@iade.pt');
-insert into teachers (teach_name, teach_phone, teach_email) values ('Ricardo Reis','935454589','andres@iade.pt');
-insert into teachers (teach_name, teach_phone, teach_email) values ('Alberto Caeiro','935543211','andres@iade.pt');
-insert into teachers (teach_name, teach_phone, teach_email) values ('Bernardo Soares','919903123','andres@iade.pt');
-insert into teachers (teach_name, teach_phone, teach_email) values ('Fernando Pessoa','928322147','andres@iade.pt');
-insert into teachers (teach_name, teach_phone, teach_email) values ('Sebastião Alves','914431242','andres@iade.pt');
-insert into teachers (teach_name, teach_phone, teach_email) values ('Luís Camões','927734139','andres@iade.pt');
+insert into teachers (teach_name, teach_phone, teach_email) values ('Miguel Albertino','926632234','miguelta@iade.pt');
+insert into teachers (teach_name, teach_phone, teach_email) values ('Ana Silva','935443311','anats@iade.pt');
+insert into teachers (teach_name, teach_phone, teach_email) values ('José Viana','915322589','josetv@iade.pt');
+insert into teachers (teach_name, teach_phone, teach_email) values ('Mariana Castro','915883920','marianatc@iade.pt');
+insert into teachers (teach_name, teach_phone, teach_email) values ('Ricardo Reis','935454589','ricardotr@iade.pt');
+insert into teachers (teach_name, teach_phone, teach_email) values ('Alberto Caeiro','935543211','albertotc@iade.pt');
+insert into teachers (teach_name, teach_phone, teach_email) values ('Bernardo Soares','919903123','bernardots@iade.pt');
+insert into teachers (teach_name, teach_phone, teach_email) values ('Fernando Pessoa','928322147','fernandotp@iade.pt');
+insert into teachers (teach_name, teach_phone, teach_email) values ('Sebastião Alves','914431242','sebastiaota@iade.pt');
+insert into teachers (teach_name, teach_phone, teach_email) values ('Luís Camões','927734139','luistc@iade.pt');
 
 
 
