@@ -16,7 +16,7 @@ public interface StudentRepository extends CrudRepository<Student,Integer>
     Optional<Student> findByEmailAndPassword(String email, String password);
 
     String QueryFindUnitsCourse = 
-    "select stu_name studentName, enroll_grade studentGrade, unit_name unitName "+
+    "select stu_name studentName, enroll_grade studentGrade, unit_name unitName, unit_semester unitSemester "+
     "from clapresches inner join unitcourses on cps_unitcour_id = unitcour_id "+
     "inner join courses on unitcour_cour_id = cour_id "+
     "inner join units on unitcour_unit_id = unit_id  "+

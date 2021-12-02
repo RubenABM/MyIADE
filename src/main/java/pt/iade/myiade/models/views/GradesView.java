@@ -5,5 +5,6 @@ public interface GradesView {
     String getStudentName();
     int getStudentGrade();
     String getUnitName();
+    int getUnitSemester();
     
 }
