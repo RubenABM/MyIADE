@@ -560,7 +560,7 @@ insert into uniteachers (unitte_unitcour_id, unitte_teach_id) values (78,10);
 insert into uniteachers (unitte_unitcour_id, unitte_teach_id) values (79,2);
 insert into uniteachers (unitte_unitcour_id, unitte_teach_id) values (80,6);
 insert into uniteachers (unitte_unitcour_id, unitte_teach_id) values (81,7);
-insert into uniteachers (unitte_unitcour_id, unitte_teach_id) values (82,3;
+insert into uniteachers (unitte_unitcour_id, unitte_teach_id) values (82,3);
 insert into uniteachers (unitte_unitcour_id, unitte_teach_id) values (83,8);
 insert into uniteachers (unitte_unitcour_id, unitte_teach_id) values (84,10);
 insert into uniteachers (unitte_unitcour_id, unitte_teach_id) values (85,11);
