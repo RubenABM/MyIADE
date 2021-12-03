@@ -60,7 +60,7 @@ create table schedules (
 					sche_end time not null,
 					sche_cps_id INT not null,
 					sche_qr INT not null,
-					sche_weekday VARCHAR(50),
+					sche_weekday VARCHAR(50) not null,
 					primary key (sche_id)
 );
 

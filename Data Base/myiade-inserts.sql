@@ -470,8 +470,94 @@ insert into teachers (teach_name, teach_phone, teach_email) values ('Luís Camõ
 
 
 
-commit;
 
+
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('17:00:00','19:00:00', 'Segunda', 6, 376322554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('14:00:00','16:00:00', 'Terça', 2, 376322556);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','18:00:00', 'Terça', 1, 376322557);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','19:00:00', 'Quarta', 4, 376322558);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('14:00:00','16:00:00', 'Quinta', 1, 376322559);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','19:00:00', 'Quinta', 3, 376322514);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','17:00:00', 'Sexta', 2, 376322534);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('17:00:00','19:00:00', 'Sexta', 5, 376322574);
+
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('17:00:00','19:00:00', 'Segunda', 7, 376324554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('14:00:00','16:00:00', 'Terça', 8, 376352554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','18:00:00', 'Terça', 7, 376329554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','19:00:00', 'Quarta', 10, 376122554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('14:00:00','16:00:00', 'Quinta', 11, 376222554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','19:00:00', 'Quinta', 8, 376382554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','17:00:00', 'Sexta', 9, 376342554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('17:00:00','19:00:00', 'Sexta', 10, 376482554);
+
+
+
+
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('08:00:00','10:00:00', 'Segunda', 17, 276322554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('10:00:00','12:00:00', 'Segunda', 15, 174322554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('08:00:00','10:00:00', 'Terça', 16, 376482554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('08:00:00','11:00:00', 'Quarta', 14, 376562554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('11:00:00','14:00:00', 'Quarta', 12, 376442554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('08:00:00','10:00:00', 'Quinta', 15, 376142554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('10:00:00','13:00:00', 'Quinta', 13, 376375554);
+
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('08:00:00','10:00:00', 'Segunda', 18, 376472554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('10:00:00','12:00:00', 'Segunda', 22, 376462554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('08:00:00','10:00:00', 'Terça', 19, 376329954);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('08:00:00','11:00:00', 'Quarta', 23, 376366554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('11:00:00','14:00:00', 'Quarta', 20, 376327354);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('08:00:00','10:00:00', 'Quinta', 21, 376323954);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('08:00:00','10:00:00', 'Sexta', 23, 376328954);
+
+
+
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('17:00:00','19:00:00', 'Segunda', 24, 663225549);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('14:00:00','16:00:00', 'Terça', 26, 376324214);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','18:00:00', 'Terça', 25, 376329994);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','19:00:00', 'Quarta', 28, 376375354);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('14:00:00','16:00:00', 'Quinta', 27, 376315954);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','19:00:00', 'Quinta', 24, 376345654);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','17:00:00', 'Sexta', 25, 376324584);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('17:00:00','19:00:00', 'Sexta', 26, 376329524);
+
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('08:00:00','10:00:00', 'Segunda', 29, 376145554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('10:00:00','12:00:00', 'Segunda', 30, 376455554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('08:00:00','10:00:00', 'Terça', 34, 376327854);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('08:00:00','11:00:00', 'Quarta', 31, 376312394);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('11:00:00','14:00:00', 'Quarta', 33, 376327794);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('08:00:00','10:00:00', 'Quinta', 32, 376329954);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('08:00:00','10:00:00', 'Sexta', 29, 376392452);
+
+
+
+
+
+
+
+
+
+
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('17:00:00','19:00:00', 'Segunda', 70, 376327854);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('14:00:00','16:00:00', 'Terça', 72, 379922556);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','18:00:00', 'Terça', 71, 371922557);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','19:00:00', 'Quarta', 74, 479322558);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('14:00:00','16:00:00', 'Quinta', 76, 987322559);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','19:00:00', 'Quinta', 73, 965322514);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','17:00:00', 'Sexta', 75, 399522534);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('17:00:00','19:00:00', 'Sexta', 70, 396322574);
+
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('17:00:00','19:00:00', 'Segunda', 77, 986324554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('14:00:00','16:00:00', 'Terça', 78, 379982554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','18:00:00', 'Terça', 80, 379999554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','19:00:00', 'Quarta', 79, 999922554);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('14:00:00','16:00:00', 'Quinta', 78, 376999954);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','19:00:00', 'Quinta', 77, 376888854);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('16:00:00','17:00:00', 'Sexta', 80, 376377774);
+insert into schedules (sche_begin, sche_end, sche_weekday, sche_cps_id, sche_qr) values ('17:00:00','19:00:00', 'Sexta', 81, 376422224);
+
+
+
+commit;
 
 
 
