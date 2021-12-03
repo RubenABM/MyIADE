@@ -270,8 +270,8 @@ insert into clapresches (cps_cla_id, cps_unitcour_id) values (3,32);
 insert into clapresches (cps_cla_id, cps_unitcour_id) values (3,33);
 insert into clapresches (cps_cla_id, cps_unitcour_id) values (3,34);
 
-insert into clapresches (cps_cla_id, cps_unitcour_id) values (4,4);
-insert into clapresches (cps_cla_id, cps_unitcour_id) values (4,5);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (4,101);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (4,102);
 insert into clapresches (cps_cla_id, cps_unitcour_id) values (4,35);
 insert into clapresches (cps_cla_id, cps_unitcour_id) values (4,36);
 insert into clapresches (cps_cla_id, cps_unitcour_id) values (4,37);
@@ -283,7 +283,7 @@ insert into clapresches (cps_cla_id, cps_unitcour_id) values (4,42);
 insert into clapresches (cps_cla_id, cps_unitcour_id) values (4,43);
 insert into clapresches (cps_cla_id, cps_unitcour_id) values (4,44);
 
-insert into clapresches (cps_cla_id, cps_unitcour_id) values (5,20);
+insert into clapresches (cps_cla_id, cps_unitcour_id) values (5,103);
 insert into clapresches (cps_cla_id, cps_unitcour_id) values (5,45);
 insert into clapresches (cps_cla_id, cps_unitcour_id) values (5,46);
 insert into clapresches (cps_cla_id, cps_unitcour_id) values (5,47);
