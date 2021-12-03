@@ -60,10 +60,11 @@ create table enrollments (
 
 create table schedules (
 					sche_id SERIAL not null,
-					sche_begin date not null,
-					sche_end date not null,
+					sche_begin time not null,
+					sche_end time not null,
 					sche_date date not null,
 					sche_cps_id INT not null,
+					sche_weekday VARCHAR(50),
 					primary key (sche_id)
 );
 
