@@ -219,6 +219,10 @@ insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (3,98);
 insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (3,99);
 insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (3,100);
 
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (2,4);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (2,5);
+insert into unitcourses (unitcour_cour_id, unitcour_unit_id) values (2,20);
+
 insert into classes (cla_name) values ('LEI01M01');
 insert into classes (cla_name) values ('LEI02M01');
 insert into classes (cla_name) values ('LEI03M01');
