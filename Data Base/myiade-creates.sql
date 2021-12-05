@@ -3,9 +3,9 @@ create table students (
 					stu_name VARCHAR(100) not null,
 					stu_bdate date not null, 
 					stu_phone VARCHAR(30) not null,
-					stu_email VARCHAR(30), 
-					stu_address VARCHAR(250),					
-					stu_password VARCHAR(64),				
+					stu_email VARCHAR(30) not null, 
+					stu_address VARCHAR(250) not null,					
+					stu_password VARCHAR(64) not null,				
 					stu_gender CHAR(1) not null,
 					stu_civilnum INT not null,  						
 					primary key (stu_id)	
@@ -15,13 +15,14 @@ create table teachers (
 					teach_id SERIAL not null,
 					teach_name VARCHAR(100) not null, 
 					teach_phone VARCHAR(30) not null,
-					teach_email VARCHAR(30), 														
+					teach_email VARCHAR(30) not null, 														
 					primary key (teach_id)	
 );
 		     		     
 create table courses (
 					cour_id SERIAL not null,
 					cour_name VARCHAR(40) not null, 
+					cour_url VARCHAR(200) not null,
 					primary key (cour_id)
 );
 
