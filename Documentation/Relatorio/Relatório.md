@@ -272,3 +272,33 @@ Erros:
     "message": "Unit with id 0 not found",
     "path": "/api/units/0"
 }
+
+#### Apresentação das unidades curriculares referentes a cada curso
+###### (Devolve a informação referente às unidades curriculares e correspondentes cursos)
+##### Url: myiade.herokuapp.com/api/units/unitcourse (get)
+Resultado:
+[
+{
+   "courseName":"Engenharia Informática","unitName":"Análise Matemática I"
+{  
+   "courseName":"Engenharia Informática","unitName":"Álgebra Linear"
+}
+{  
+   "Games Development","unitName":"Game Frameworks"
+}
+...]  
+
+#### Apresentação das unidades curriculares de cada curso consoante o nome do curso
+###### (Devolve as unidades curriculares consoante o nome do curso)
+##### Url: Url: myiade.herokuapp.com/api/units/unitcourse/{course} (get)
+##### Parâmetros: course - string que corresponde ao nome do curso
+
+Resultado:  
+[
+{
+  "courseName":"Engenharia Informática","unitName":"Análise Matemática I"
+}
+{
+   "courseName":"Engenharia Informática","unitName":"Interfaces e Usabilidade"
+}
+...]  
