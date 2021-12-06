@@ -127,9 +127,7 @@ Resultado:
 {  
    "id":2,"name":"Bruna Sousa","phone":965544324,"email":"brunas@iade.pt","address":"Rua dos Açores, Nº50 1ºEsquerdo, 1001-002 Lisboa","password":"brunaiade","gender":"F","bdate":"2002-01-02","civilNumber":77553844
 }
-…]
-
-
+…]  
 
 #### Apresentação da informação de um estudante através do id
 ###### (Devolve a informação referente a cada estudante pelo seu id)
@@ -158,7 +156,7 @@ Erros:
 Resultado:  
 {
    "id":1,"name":"André Santos","phone":925478589,"email":"andres@iade.pt","address":"Rua de Lisboa, Nº57 2ºDireito, 1000-001                                                         Lisboa","password":"andreiade","gender":"M","bdate":"2000-05-21","civilNumber":32541255     
-}
+}  
 
 #### Obter as notas do estudante através do seu id
 ###### (Irá devolver as notas de um estudante tendo por base o id do estudante)
@@ -176,7 +174,7 @@ Resultado:
 {
    "studentName":"André Santos","studentGrade":11,"unitSemester":5,"unitName":"Sistemas Distribuídos" 
 }
-...]
+...]  
 
 #### Apresentação da informação de todos os cursos
 ###### (Devolve a informação referente a todos os cursos)
@@ -192,7 +190,7 @@ Resultado:
 {  
    "id":3,"name":"Games Development","url":"https://drive.google.com/drive/folders/1l3XA_6SMP3uLWc6XnEfjXgj_0MphR23h?usp=sharing"
 }
-]
+]  
 
 #### Apresentação da informação de um curso através do id
 ###### (Devolve a informação referente a cada curso pelo seu id)
@@ -212,7 +210,7 @@ Erros:
     "error": "Not Found",
     "message": "Course with id 0 not found",
     "path": "/api/courses/0"
-}
+}  
 
 #### Apresentação do curso referente a cada estudante
 ###### (Devolve a informação referente aos cursos de cada estudante)
@@ -227,7 +225,7 @@ Resultado:
 {  
    "courseName":"Engenharia Informática","studentName":"André Santos"
 }
-...]
+...]  
 
 #### Apresentação do curso referente a cada estudante consoante o seu id
 ###### (Devolve o estudante e respetivo curso consoante o id do estudante)
