@@ -72,7 +72,7 @@ public class StudentController{
         return studentRepository.findStudentsGradesByID(id);
     }
 
-    @GetMapping(path="/schedule/{id}")
+    @GetMapping(path="/schedule/{id}/{semester}")
     public Iterable<ScheduleView> getStudentSchedule(@PathVariable int id, @PathVariable int semester) 
     {
         logger.info("Schedule with student id: " + id + " and semester: " + semester);
