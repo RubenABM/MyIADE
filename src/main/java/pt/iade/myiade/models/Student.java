@@ -16,7 +16,7 @@ public class Student {
     @Column(name="stu_id") private int id;
     @Column(name="stu_name") private String name;
     @Column(name="stu_bDate") private LocalDate bDate;
-    @Column(name="stu_phone") private int phone;
+    @Column(name="stu_phone") private String phone;
     @Column(name="stu_email") private String email;
     @Column(name="stu_address") private String address;
     @Column(name="stu_password") private String password;
@@ -32,7 +32,7 @@ public class Student {
     public LocalDate getBDate() { 
         return bDate; 
     }
-    public int getPhone() {   
+    public String getPhone() {   
         return phone;
     }
     public String getEmail() {
