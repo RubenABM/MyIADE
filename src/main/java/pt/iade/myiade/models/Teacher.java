@@ -1,5 +1,4 @@
 package pt.iade.myiade.models;
-import java.time.LocalDate;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -15,13 +14,8 @@ public class Teacher {
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Column(name="teach_id") private int id;
     @Column(name="teach_name") private String name;
-    @Column(name="teach_bdate") private LocalDate bDate;
     @Column(name="teach_phone") private int phone;
     @Column(name="teach_email") private String email;
-    @Column(name="teach_address") private String address;
-    @Column(name="teach_password") private String password;
-    @Column(name="teach_gender") private char gender;
-    @Column(name="teach_civilnum") private int civilNum;
     public Teacher() {}
     public int getId() { 
         return id;
@@ -29,25 +23,10 @@ public class Teacher {
     public String getName() { 
         return name;
      }
-    public LocalDate getBDate() { 
-        return bDate; 
-    }
     public int getPhone() {   
         return phone;
     }
     public String getEmail() {
         return email;
     }
-    public String getAddress() {
-        return address;
-    }
-    public String getPassword() {
-        return password;
-    }
-    public char getGender() {
-        return gender;
-    }
-    public int getCivilNumber() {
-        return civilNum;
-    } 
 }
