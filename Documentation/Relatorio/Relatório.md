@@ -236,3 +236,39 @@ Resultado:
 {
   "courseName":"Engenharia Informática","studentName":"André Santos"
 }
+
+#### Apresentação da informação de todas unidades curriculares
+###### (Devolve a informação referente a todas as unidades curriculares)
+##### Url: myiade.herokuapp.com/api/units (get)
+Resultado:
+[
+{
+   "id":1,"name":"Análise Matemática I","semester":1    
+}
+{
+   "id":2,"name":"Álgebra Linear","semester":1
+}
+{
+   "id":42,"name":"Criatividade e Pensamento Crítico","semester":2
+}
+…]  
+
+#### Apresentação da informação de uma unidade curricular consoante o seu
+###### (Devolve a informação referente a cada unidade curricular pelo seu id)
+##### Url: Url: myiade.herokuapp.com/api/units/{id} (get)
+##### Parâmetros: id - inteiro positivo que corresponde ao id da unidade curricular
+
+Resultado:  
+{
+   "id":1,"name":"Análise Matemática I","semester":1    
+}
+ 
+Erros:
+404 (HttpStatus.NOT_FOUN D): O estudante não foi encontrado
+{
+    "timestamp": "2021-12-06T11:32:39.282+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "message": "Unit with id 0 not found",
+    "path": "/api/units/0"
+}
