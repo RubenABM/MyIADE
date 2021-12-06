@@ -158,9 +158,21 @@ Resultado:
    "id":1,"name":"André Santos","phone":925478589,"email":"andres@iade.pt","address":"Rua de Lisboa, Nº57 2ºDireito, 1000-001                                                         Lisboa","password":"andreiade","gender":"M","bdate":"2000-05-21","civilNumber":32541255}     
 }
 
-#### Obter as notas do estudante através do id associado a um curso e uma uc
-###### (Irá devolver as notas de um estudante tendo por base o id associado a um curso e uc)
-##### Url: myiade.herokuapp.com/api/students/{id}/grades (get)
-##### Parâmetros: id - inteiro positivo que corresponde ao id associado a um curso e uc
+#### Obter as notas do estudante através do seu id
+###### (Irá devolver as notas de um estudante tendo por base o id do estudante)
+##### Url: myiade.herokuapp.com/api/students/grades/{id} (get)
+##### Parâmetros: id - inteiro positivo que corresponde ao id associado a um estudante
 
 Resultado:  
+[
+{
+   "studentName":"André Santos","studentGrade":14,"unitSemester":5,"unitName":"Segurança Informática"
+}
+{
+   "studentName":"André Santos","studentGrade":12,"unitSemester":5,"unitName":"Inteligência Artificial"
+}
+{
+   "studentName":"André Santos","studentGrade":11,"unitSemester":5,"unitName":"Sistemas Distribuídos"
+}  
+}
+...]
