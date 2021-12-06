@@ -125,7 +125,7 @@ Resultado:
    "id":1,"name":"André Santos","phone":925478589,"email":"andres@iade.pt","address":"Rua de Lisboa, Nº57 2ºDireito, 1000-001 Lisboa","password":"andreiade","gender":"M","bdate":"2000-05-21","civilNumber":32541255
 }  
 {  
-   "id":2,"name":"Bruna Sousa","phone":965544324,"email":"brunas@iade.pt","address":"Rua dos Açores, Nº50 1ºEsquerdo, 1001-002 Lisboa","password":"brunaiade","gender":"F","bdate":"2002-01-02","civilNumber":77553844}
+   "id":2,"name":"Bruna Sousa","phone":965544324,"email":"brunas@iade.pt","address":"Rua dos Açores, Nº50 1ºEsquerdo, 1001-002 Lisboa","password":"brunaiade","gender":"F","bdate":"2002-01-02","civilNumber":77553844
 }
 …]
 
@@ -136,7 +136,7 @@ Resultado:
 
 Resultado:  
 {
-   "id":1,"name":"André Santos","phone":925478589,"email":"andres@iade.pt","address":"Rua de Lisboa, Nº57 2ºDireito, 1000-001 Lisboa","password":"andreiade","gender":"M","bdate":"2000-05-21","civilNumber":32541255}     
+   "id":1,"name":"André Santos","phone":925478589,"email":"andres@iade.pt","address":"Rua de Lisboa, Nº57 2ºDireito, 1000-001 Lisboa","password":"andreiade","gender":"M","bdate":"2000-05-21","civilNumber":32541255     
 }
  
 Erros:
@@ -145,7 +145,7 @@ Erros:
     "timestamp": "2021-11-10T22:12:27.282+00:00",
     "status": 404,
     "error": "Not Found",
-    "message": "Student with id 9 not found",
+    "message": "Student with id 0 not found",
     "path": "/api/students/0"
 }
 
@@ -155,7 +155,7 @@ Erros:
 ##### Parâmetros: email - string que corresponde ao email do estudante e password - string que corresponde à password do estudante
 Resultado:  
 {
-   "id":1,"name":"André Santos","phone":925478589,"email":"andres@iade.pt","address":"Rua de Lisboa, Nº57 2ºDireito, 1000-001                                                         Lisboa","password":"andreiade","gender":"M","bdate":"2000-05-21","civilNumber":32541255}     
+   "id":1,"name":"André Santos","phone":925478589,"email":"andres@iade.pt","address":"Rua de Lisboa, Nº57 2ºDireito, 1000-001                                                         Lisboa","password":"andreiade","gender":"M","bdate":"2000-05-21","civilNumber":32541255     
 }
 
 #### Obter as notas do estudante através do seu id
@@ -176,3 +176,39 @@ Resultado:
 }  
 }
 ...]
+
+#### Apresentação da informação de todos os cursos
+###### (Devolve a informação referente a todos os cursos)
+##### Url: myiade.herokuapp.com/api/courses (get)
+Resultado:
+[
+{
+  "id":1,"name":"Engenharia Informática","url":"https://drive.google.com/drive/folders/1LVFYLPQ2vGa3pbYnWEqgJ6zh3a5nnwPt?usp=sharing"
+}  
+{  
+   "id":2,"name":"Informática de Gestão","url":"https://drive.google.com/drive/folders/13thB9Cw8RVjxbL7cMn2u7tUC2agVcZ7Y"
+}
+{  
+   "id":3,"name":"Games Development","url":"https://drive.google.com/drive/folders/1l3XA_6SMP3uLWc6XnEfjXgj_0MphR23h?usp=sharing"
+}
+]
+
+#### Apresentação da informação de um curso através do id
+###### (Devolve a informação referente a cada curso pelo seu id)
+##### Url: Url: myiade.herokuapp.com/api/courses/{id} (get)
+##### Parâmetros: id - inteiro positivo que corresponde ao id do curso
+
+Resultado:  
+{
+   "id":1,"name":"Engenharia Informática","url":"https://drive.google.com/drive/folders/1LVFYLPQ2vGa3pbYnWEqgJ6zh3a5nnwPt?usp=sharing"     
+}
+ 
+Erros:
+404 (HttpStatus.NOT_FOUN D): O curso não foi encontrado
+{
+    "timestamp": "2021-112-06T10:57:22.282+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "message": "Course with id 0 not found",
+    "path": "/api/courses/0"
+}
