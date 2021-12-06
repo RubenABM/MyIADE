@@ -129,6 +129,8 @@ Resultado:
 }
 …]
 
+
+
 #### Apresentação da informação de um estudante através do id
 ###### (Devolve a informação referente a cada estudante pelo seu id)
 ##### Url: Url: myiade.herokuapp.com/api/students/{id} (get)
