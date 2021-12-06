@@ -23,11 +23,11 @@ import org.slf4j.LoggerFactory;
 @RequestMapping(path = "/api/teachers")
 public class TeacherController{
     
-    private Logger logger = LoggerFactory.getLogger(StudentController.class);
+    private Logger logger = LoggerFactory.getLogger(TeacherController.class);
     @Autowired
     private TeacherRepository teacherRepository;
     @GetMapping(path = "", produces = MediaType.APPLICATION_JSON_VALUE)
-    public Iterable<Teacher> getAllTeacher()
+    public Iterable<Teacher> getAllTeachers()
     {
         logger.info("Teachers info: ");
         return teacherRepository.findAll();
@@ -35,7 +35,7 @@ public class TeacherController{
 
     @GetMapping(path = "/{id:[0-9]+}", produces=
     MediaType.APPLICATION_JSON_VALUE)
-    public Teacher getStudentInfo(@PathVariable int id) 
+    public Teacher getTeacherInfo(@PathVariable int id) 
     {
         logger.info("Sending teacher with id " + id);
         Optional<Teacher> _teacher = teacherRepository.findById(id);
