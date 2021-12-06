@@ -153,7 +153,6 @@ Erros:
 ###### (Devolve a informação referente a cada estudante pelo seu email e password)
 ##### Url: Url: myiade.herokuapp.com/api/students/{email}/{password}  (get)
 ##### Parâmetros: email - string que corresponde ao email do estudante e password - string que corresponde à password do estudante
-Resultado:  
 {
    "id":1,"name":"André Santos","phone":"925478589","email":"andres@iade.pt","address":"Rua de Lisboa, Nº57 2ºDireito, 1000-001                                                         Lisboa","password":"andreiade","gender":"M","bdate":"2000-05-21","civilNumber":32541255     
 }  
@@ -287,7 +286,7 @@ Resultado:
 
 #### Apresentação da informação de uma unidade curricular consoante o seu
 ###### (Devolve a informação referente a cada unidade curricular pelo seu id)
-##### Url: Url: myiade.herokuapp.com/api/units/{id} (get)
+##### Url: myiade.herokuapp.com/api/units/{id} (get)
 ##### Parâmetros: id - inteiro positivo que corresponde ao id da unidade curricular
 
 Resultado:  
@@ -296,7 +295,7 @@ Resultado:
 }
  
 Erros:
-404 (HttpStatus.NOT_FOUN D): O estudante não foi encontrado
+404 (HttpStatus.NOT_FOUND): O estudante não foi encontrado
 {
     "timestamp": "2021-12-06T11:32:39.282+00:00",
     "status": 404,
@@ -322,7 +321,7 @@ Resultado:
 
 #### Apresentação das unidades curriculares de cada curso consoante o nome do curso
 ###### (Devolve as unidades curriculares consoante o nome do curso)
-##### Url: Url: myiade.herokuapp.com/api/units/unitcourse/{course} (get)
+##### Url: myiade.herokuapp.com/api/units/unitcourse/{course} (get)
 ##### Parâmetros: course - string que corresponde ao nome do curso
 
 Resultado:  
