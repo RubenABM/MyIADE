@@ -15,6 +15,7 @@ import pt.iade.myiade.models.exceptions.NotFoundException2;
 import pt.iade.myiade.models.repositories.StudentRepository;
 //import pt.iade.myiade.models.responses.Response;
 import pt.iade.myiade.models.views.GradesView;
+import pt.iade.myiade.models.views.ScheduleView;
 
 import java.util.Optional;
 
@@ -69,6 +70,13 @@ public class StudentController{
     {
         logger.info("Grades with student id: " + id);
         return studentRepository.findStudentsGradesByID(id);
+    }
+
+    @GetMapping(path="/schedule/{id}")
+    public Iterable<ScheduleView> getStudentSchedule(@PathVariable int id, @PathVariable int semester) 
+    {
+        logger.info("Schedule with student id: " + id + " and semester: " + semester);
+        return studentRepository.findStudentsSchedule(id, semester);
     }
 }
 
