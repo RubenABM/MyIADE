@@ -158,11 +158,26 @@ Resultado:
    "id":1,"name":"André Santos","phone":925478589,"email":"andres@iade.pt","address":"Rua de Lisboa, Nº57 2ºDireito, 1000-001                                                         Lisboa","password":"andreiade","gender":"M","bdate":"2000-05-21","civilNumber":32541255     
 }  
 
+#### Apresentação das notas de todos os estudantes
+###### (Devolve a informação referente às notas de todos os estudantes)
+##### Url: myiade.herokuapp.com/api/students/grades (get)
+Resultado:  
+[
+{
+   {"studentGrade":14,"unitSemester":5,"studentName":"André Santos","unitName":"Segurança Informática"
+}
+{
+   "studentGrade":9,"unitSemester":6,"studentName":"André Santos","unitName":"Sistemas Operativos"
+}
+{
+   "studentGrade":6,"unitSemester":1,"studentName":"Diogo José","unitName":"Ciência, Fontes e Métodos"
+}
+...] 
+
 #### Obter as notas do estudante através do seu id
 ###### (Irá devolver as notas de um estudante tendo por base o id do estudante)
 ##### Url: myiade.herokuapp.com/api/students/grades/{id} (get)
 ##### Parâmetros: id - inteiro positivo que corresponde ao id associado a um estudante
-
 Resultado:  
 [
 {
@@ -173,6 +188,23 @@ Resultado:
 }
 {
    "studentName":"André Santos","studentGrade":11,"unitSemester":5,"unitName":"Sistemas Distribuídos" 
+}
+...]  
+
+#### Obter os horários do estudante consoante o id e semestre
+###### (Irá devolver o horário do estudante tendo por base o id do estudante e o semestre)
+##### Url: myiade.herokuapp.com/api/schedule/{id}/{semester} (get)
+##### Parâmetros: id - inteiro positivo que corresponde ao id associado a um estudante, semestre - inteiro positivo que corresponde ao semestre
+Resultado:  
+[
+{
+   "startTime":"17:00:00","studentName":"André Santos","unitName":"Segurança Informática","endTime":"19:00:00","weekDay":"Segunda"
+}
+{
+   "startTime":"14:00:00","studentName":"André Santos","unitName":"Sistemas Distribuídos","endTime":"16:00:00","weekDay":"Terça"
+}
+{
+   "startTime":"16:00:00","studentName":"André Santos","unitName":"Segurança Informática","endTime":"19:00:00","weekDay":"Quinta"
 }
 ...]  
 
