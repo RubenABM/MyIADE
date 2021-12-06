@@ -172,8 +172,7 @@ Resultado:
    "studentName":"André Santos","studentGrade":12,"unitSemester":5,"unitName":"Inteligência Artificial"
 }
 {
-   "studentName":"André Santos","studentGrade":11,"unitSemester":5,"unitName":"Sistemas Distribuídos"
-}  
+   "studentName":"André Santos","studentGrade":11,"unitSemester":5,"unitName":"Sistemas Distribuídos" 
 }
 ...]
 
@@ -211,4 +210,29 @@ Erros:
     "error": "Not Found",
     "message": "Course with id 0 not found",
     "path": "/api/courses/0"
+}
+
+#### Apresentação do curso referente a cada estudante
+###### (Devolve a informação referente aos cursos de cada estudante)
+##### Url: myiade.herokuapp.com/api/courses/studentscourse (get)
+Resultado:
+[
+{
+   "courseName":"Informática de Gestão","studentName":"Diogo José"  
+{  
+   "courseName":"Games Development","studentName":"Maria Mendonça"
+}
+{  
+   "courseName":"Engenharia Informática","studentName":"André Santos"
+}
+...]
+
+#### Apresentação do curso referente a cada estudante consoante o seu id
+###### (Devolve o estudante e respetivo curso consoante o id do estudante)
+##### Url: Url: myiade.herokuapp.com/api/courses/studentscourse/{id} (get)
+##### Parâmetros: id - inteiro positivo que corresponde ao id do aluno
+
+Resultado:  
+{
+  "courseName":"Engenharia Informática","studentName":"André Santos"
 }
