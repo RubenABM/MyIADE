@@ -49,7 +49,7 @@ public class StudentController{
         else return _student.get();
     }
 
-    @GetMapping(path = "/{email}/{password}", produces=
+    @GetMapping(path = "/login/{email}/{password}", produces=
     MediaType.APPLICATION_JSON_VALUE)
     public Student getStudentInfoByEmailAndPassword(@PathVariable String email, @PathVariable String password) 
     {
