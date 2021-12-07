@@ -15,6 +15,8 @@ import pt.iade.myiade.models.exceptions.NotFoundException2;
 import pt.iade.myiade.models.repositories.StudentRepository;
 //import pt.iade.myiade.models.responses.Response;
 import pt.iade.myiade.models.views.GradesView;
+import pt.iade.myiade.models.views.PresenceView;
+import pt.iade.myiade.models.views.ResourceView;
 import pt.iade.myiade.models.views.ScheduleView;
 
 import java.util.Optional;
@@ -69,14 +71,28 @@ public class StudentController{
     public Iterable<GradesView> getStudentGradesByID(@PathVariable int id) 
     {
         logger.info("Grades with student id: " + id);
-        return studentRepository.findStudentsGradesByID(id);
+        return studentRepository.findStudentGradesByID(id);
     }
 
     @GetMapping(path="/schedule/{id}/{semester}")
     public Iterable<ScheduleView> getStudentSchedule(@PathVariable int id, @PathVariable int semester) 
     {
         logger.info("Schedule with student id: " + id + " and semester: " + semester);
-        return studentRepository.findStudentsSchedule(id, semester);
+        return studentRepository.findStudentSchedule(id, semester);
+    }
+    
+    @GetMapping(path="/resource/{id}")
+    public Iterable<ResourceView> getStudentResource(@PathVariable int id) 
+    {
+        logger.info("Resource with student id: " + id);
+        return studentRepository.findStudentResource(id);
+    }
+
+    @GetMapping(path="/presence/{id}")
+    public Iterable<PresenceView> getStudentPresence(@PathVariable int id) 
+    {
+        logger.info("Presence with student id: " + id);
+        return studentRepository.findStudentPresence(id);
     }
 }
 
