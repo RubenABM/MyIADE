@@ -323,7 +323,6 @@ Resultado:
 ###### (Devolve as unidades curriculares consoante o nome do curso)
 ##### Url: myiade.herokuapp.com/api/units/unitcourse/{course} (get)
 ##### Parâmetros: course - string que corresponde ao nome do curso
-
 Resultado:  
 [
 {
@@ -333,3 +332,27 @@ Resultado:
    "courseName":"Engenharia Informática","unitName":"Interfaces e Usabilidade"
 }
 ...]  
+
+#### Apresentação do url correspondente ao repositório de cada curso consoante o id do estudante
+###### (Devolve o url do repositório consoante o id do estudante)
+##### Url: myiade.herokuapp.com/api/students/resource/{id} (get)
+##### Parâmetros:  id - inteiro positivo que corresponde ao id do aluno
+Resultado:
+[
+{
+     "courName":"Engenharia Informática",
+     "courUrl":"https://drive.google.com/drive/folders/1LVFYLPQ2vGa3pbYnWEqgJ6zh3a5nnwPt?usp=sharing",
+     "studentName":"André Santos"
+}
+]
+
+#### Apresentação da presença do aluno consoante o seu id
+###### (Devolve as presenças do aluno consoante o id)
+##### Url: myiade.herokuapp.com/api/students/presence/{id} (get)
+##### Parâmetros:  id - inteiro positivo que corresponde ao id do aluno
+Resultado:
+[
+{
+    
+}
+]
