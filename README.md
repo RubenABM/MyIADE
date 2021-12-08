@@ -6,6 +6,7 @@ Projeto 3º Semestre de Engenharia Informática
 ## Gestão do projeto
 
 - O relatório do projeto encontra-se na pasta "Documentation".
+- Tanto o vídeo como o poster se encontram na mesma pasta.
 
 * * *
 
