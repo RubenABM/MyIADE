@@ -333,8 +333,8 @@ Resultado:
 }
 ...]  
 
-#### Apresentação do url correspondente ao repositorio de cada curso consoante o id do estudante
-###### (Devolve o url do repositorio consoante o id do estudante)
+#### Apresentação do url correspondente ao repositório de cada curso consoante o id do estudante
+###### (Devolve o url do repositório consoante o id do estudante)
 ##### Url: myiade.herokuapp.com/api/students/resource/{id} (get)
 ##### Parâmetros:  id - inteiro positivo que corresponde ao id do aluno
 Resultado:
