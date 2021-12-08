@@ -46,7 +46,7 @@ public interface StudentRepository extends CrudRepository<Student,Integer>
     Iterable<ScheduleView> findStudentSchedule(@Param("id") int id, @Param("semester") int semester);
 
     String QueryFindStudentsResource =
-    "select stu_name studentName, cour_name courName, cour_url courUrl " +
+    "select distinct stu_name studentName, cour_name courName, cour_url courUrl " +
     "from students " +
     "inner join enrollments on stu_id = enroll_stu_id " +
     "inner join clapresches on cps_id = enroll_cps_id " +
