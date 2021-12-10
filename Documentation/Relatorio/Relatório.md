@@ -36,7 +36,7 @@ Iremos desenvolver uma app móvel da faculdade, com o nome de "MyIADE", de modo 
 
 ### Palavras-Chave:
 
-Faculdade  | Informação | Alunos | Horários | Acessibilidade
+Faculdade | Informação | Alunos | Horários | Acessibilidade
 
 * * *
 
@@ -57,12 +57,10 @@ O objetivo deste projeto é desenvolver uma app móvel da faculdade, que corresp
 ### Funcionalidades:
 
 A nossa app será direcionada aos diversos alunos e docentes da faculdade, possuindo diversas funcionalidades:
-- Consulta de notas, horários, propinas e noticias;
+- Consulta de notas, horários, noticiase informações acerca da faculdade;
 - Encaminhamento para o e-mail do aluno;
 - Sistema de presenças através de QR Code disponibilizado pelo docente, sendo necessário estar ligado à rede da faculdade para confirmar a localização;
-- Sistema de notificações que indique a próxima aula, a respetiva sala, e se possível o trajeto.
-- Marcação de deslocações à secretaria ou algum órgão da faculdade;
-- Repositório com os testes das diferentes cadeiras de anos anteriores e respetivas respostas;
+- Repositório de ficheiros referente a cada curso, sendo possivel partilhar diferentes ficheiros de modo a facilitar o percurso dos alunos.
 
 * * *
 
@@ -74,27 +72,31 @@ Procurámos outras aplicações semelhantes a esta em outros estabelecimentos de
 - Faculdade de Ciências 
 
 Com base na nossa pesquisa conferimos que, em geral, as aplicações são sempre bastante semelhantes, possuindo as mesmas opções básicas, como por exemplo conferir notas e horários.
-Com a nossa aplicação iremos inovador este estigma por entre estas aplicações, inovando nas opções fornecidas.
+Com a nossa aplicação iremos inovador este estigma entre estas aplicações, inovando nas opções fornecidas.
 
 * * *
 
 ### Guiões de teste:
 
-Antes de efetuar os guiões deve inserir o email e a password do estudante a que quere aceder.
+Antes de efetuar os guiões deve inserir o email e a password do estudante a que quer aceder.
 Email para testes: andres@iade.pt
 Password para testes: andreiade
 
 ###### (Leitura do QR Code para marcação da presença)
-1º - Quando abrir a aplicação irão ser mostradas as noticias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "home", "O meu curso", "Presenças", "Área Financeira", "Campus", "O meu Perfil" e "Terminar sessão". Irá entrar na opção "Presenças", sendo mostradas 2 opções, "Marcar presença" e "Presenças". Irá entrar na opção "Marcar presença", será pedido o acesso à câmara do telemóvel, depois de permitir o acesso irá ler o QR Code. Será automaticamente marcada a presença na respetiva aula. 
+1º - Quando abrir a aplicação irão ser mostradas as notícias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "Noticías", "Presenças", "O meu curso", "Campus", "E-mail", "O meu Perfil" e "Terminar sessão". Irá entrar na opção "Presenças", sendo mostradas 2 opções, "Marcar presença" e "Presenças". Irá entrar na opção "Marcar presença", será pedido o acesso à câmara do telemóvel, depois de permitir o acesso irá ler o QR Code. Será automaticamente marcada a presença na respetiva aula. 
 
-###### (Mostrar o mapa da sala)
-2º - 5 minutos antes da aula marcada começar, irá receber uma notificação com o nome da respetiva aula e o número da sala de aula. Irá ter de clicar na notificação recebida de forma a ser mostrada a informação completa acerca da aula (Nome da cadeira, respetiva sala, nome do docente, hora de inicio e de fim). De seguida terá de clicar no botão "localizar sala de aula", sendo mostrado um mapa do andar com a respetiva sala marcada e trajeto.
+###### (Aceder ao repositório de ficheiros)
+2º - Quando abrir a aplicação irão ser mostradas as notícias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "Noticías", "Presenças", "O meu curso", "Campus", "E-mail", "O meu Perfil" e "Terminar sessão". Irá entrar na opção "O meu curso". Na parte inferior do ecrã irá ter a opção "Recursos", irá clicar na mesma e irá ser redirecionado para o repositório de ficheiros do curso. Neste repositorio pode escolher o ano, semestre e unidade curricular, de modo a poder consultar os ficheiros especificos acerca dessa unidade.
 
 ###### (Conferir notas do aluno)
-3º - Quando abrir a aplicação irão ser mostradas as notícias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "home", "O meu curso", "Presenças", "Área Financeira", "Campus", "O meu Perfil" e "Terminar sessão". Irá entrar na aba "O Meu Curso" e depois disso escolher o respetivo semestre que deseja consultar as notas. Serão mostradas as notas das cadeiras por ordem alfabética.
+3º - Quando abrir a aplicação irão ser mostradas as notícias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "Noticías", "Presenças", "O meu curso", "Campus", "E-mail", "O meu Perfil" e "Terminar sessão". Irá entrar na opção "O meu curso". Na parte inferior do ecrã irá ter a opção "As minhas notas", irá clicar na mesma e serão mostradas as notas, tanto como a respetiva unidade curricular e semestre desse estudante.
 
 ###### (Conferir informações referentes ao aluno)
-4º - Quando abrir a aplicação irão ser mostradas as noticias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "home", "O meu curso", "Presenças", "Área Financeira", "Campus", "O meu Perfil" e "Terminar sessão". Irá entrar na opção "O Meu Perfil" e serão mostradas as informações referentes ao estudante, como data de nascimento, número do cartão de cidadão, número de telefone, email e residência.
+4º - Quando abrir a aplicação irão ser mostradas as notícias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "Noticías", "Presenças", "O meu curso", "Campus", "E-mail", "O meu Perfil" e "Terminar sessão". Irá entrar na opção "O meu perfil". Ao entrar conseguirá observar as informações referentes ao estudante, tal como data de nascimento, contactos ou a sua residência.
+
+###### (Conferir localização da universidade)
+5º - Quando abrir a aplicação irão ser mostradas as notícias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "Noticías", "Presenças", "O meu curso", "Campus", "E-mail", "O meu Perfil" e "Terminar sessão". Irá entrar na opção "Campus". Irão ser mostradas as informações referentes à faculdade, tal como os contactos e a morada. Na parte inferior do ecrã ter a opção "Localização". Irá entrar nessa opção e será mostrada a localização da faculdade.
+
 
 * * *
 
