@@ -57,7 +57,7 @@ O objetivo deste projeto é desenvolver uma app móvel da faculdade, que corresp
 ### Funcionalidades:
 
 A nossa app será direcionada aos diversos alunos e docentes da faculdade, possuindo diversas funcionalidades:
-- Consulta de notas, horários, noticiase informações acerca da faculdade;
+- Consulta de notas, horários, noticias e informações acerca da faculdade;
 - Encaminhamento para o e-mail do aluno;
 - Sistema de presenças através de QR Code disponibilizado pelo docente, sendo necessário estar ligado à rede da faculdade para confirmar a localização;
 - Repositório de ficheiros referente a cada curso, sendo possivel partilhar diferentes ficheiros de modo a facilitar o percurso dos alunos.
@@ -79,8 +79,8 @@ Com a nossa aplicação iremos inovador este estigma entre estas aplicações, i
 ### Guiões de teste:
 
 Antes de efetuar os guiões deve inserir o email e a password do estudante a que quer aceder.
-Email para testes: andres@iade.pt
-Password para testes: andreiade
+- Email para testes: andres@iade.pt
+- Password para testes: andreiade
 
 ###### (Leitura do QR Code para marcação da presença)
 1º - Quando abrir a aplicação irão ser mostradas as notícias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "Noticías", "Presenças", "O meu curso", "Campus", "E-mail", "O meu Perfil" e "Terminar sessão". Irá entrar na opção "Presenças", sendo mostradas 2 opções, "Marcar presença" e "Presenças". Irá entrar na opção "Marcar presença", será pedido o acesso à câmara do telemóvel, depois de permitir o acesso irá ler o QR Code. Será automaticamente marcada a presença na respetiva aula. 
