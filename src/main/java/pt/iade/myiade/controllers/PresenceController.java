@@ -30,7 +30,7 @@ public class PresenceController{
     @PostMapping(path = "/{presenceStudentID}/{presenceScheduleID}")
     public Response registerStudent(@PathVariable int presenceStudentID, @PathVariable int presenceScheduleID) {
     
-        logger.info("Regestring presence ");
+        logger.info("Registering presence ");
 
         Integer inserted = presenceRepository.registerPresence(presenceScheduleID, presenceStudentID, LocalDate.now());
         return new Response(" presence registered -> ", inserted);
