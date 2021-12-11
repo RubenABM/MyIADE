@@ -1,11 +1,11 @@
 package pt.iade.myiade.models.views;
 
-import java.sql.Date;
+import java.time.LocalDate;
 
 public interface PresenceView {
     
-    Date getPresenceDate();
+    LocalDate getPresenceDate();
     String getStudentName();
     String getUnitName();
-    
+
 }
