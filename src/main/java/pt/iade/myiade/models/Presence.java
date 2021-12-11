@@ -16,7 +16,7 @@ public class Presence {
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Column(name="pre_id") private int id;
     @Column(name="pre_date") private LocalDate presenceDate;
-    @Column(name="pre_sche_id") private LocalDate presenceScheduleId;
+    @Column(name="pre_sche_id") private int presenceScheduleId;
     @Column(name="pre_stu_id") private int presenceStudentId;
     public Presence() {}
     public int getId() {
@@ -25,7 +25,7 @@ public class Presence {
     public LocalDate getPresenceDate() {
         return presenceDate;
     }
-    public LocalDate getPresenceScheduleId() {
+    public int getPresenceScheduleId() {
         return presenceScheduleId;
     }
     public int getPresenceStudentId() {
