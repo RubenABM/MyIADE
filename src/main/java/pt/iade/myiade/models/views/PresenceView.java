@@ -6,5 +6,6 @@ public interface PresenceView {
     
     Date getPresenceDate();
     String getStudentName();
-
+    String getUnitName();
+    
 }
