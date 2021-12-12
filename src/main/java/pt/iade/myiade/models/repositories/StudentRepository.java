@@ -59,7 +59,7 @@ public interface StudentRepository extends CrudRepository<Student,Integer>
     Iterable<ResourceView> findStudentResource(@Param("id") int id);
 
     String QueryFindStudentsPresence =
-    "select pre_date, stu_name, unit_name " +
+    "select pre_date presenceDate, stu_name studentName, unit_name unitName" +
     "from presences " +
     "inner join students on pre_stu_id = stu_id " +
     "inner join schedules on pre_sche_id = sche_id " +
