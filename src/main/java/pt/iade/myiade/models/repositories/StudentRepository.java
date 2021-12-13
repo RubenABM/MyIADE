@@ -46,7 +46,7 @@ public interface StudentRepository extends CrudRepository<Student,Integer>
     Iterable<ScheduleView> findStudentSchedule(@Param("id") int id, @Param("semester") int semester);
 
     String QueryFindStudentsResource =
-    "select stu_name studentName, cour_name courName, cour_url courUrl " +
+    "select distinct stu_name studentName, cour_name courseName, cour_url courseUrl " +
     "from students " +
     "inner join enrollments on stu_id = enroll_stu_id " +
     "inner join clapresches on cps_id = enroll_cps_id " +
@@ -55,7 +55,7 @@ public interface StudentRepository extends CrudRepository<Student,Integer>
     "inner join units on unit_id = unitcour_unit_id ";
 
     @Query(value = QueryFindStudentsResource +
-    " where stu_id=:id group by stu_name, cour_name, cour_url", nativeQuery = true)
+    " where stu_id=:id", nativeQuery = true)
     Iterable<ResourceView> findStudentResource(@Param("id") int id);
 
     String QueryFindStudentsPresence =
