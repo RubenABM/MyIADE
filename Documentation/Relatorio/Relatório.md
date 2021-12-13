@@ -22,9 +22,9 @@
 
 * * *
 
-### Público alvo do projeto:
+### Público-alvo do projeto:
 
-A aplicação MyIADE possui como público alvo os diversos estudantes e docentes da universidade IADE.
+A aplicação MyIADE possui como público-alvo os diversos estudantes e docentes da universidade IADE.
 
 * * *
 
