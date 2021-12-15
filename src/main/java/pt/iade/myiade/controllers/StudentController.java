@@ -18,6 +18,7 @@ import pt.iade.myiade.models.views.GradesView;
 import pt.iade.myiade.models.views.PresenceView;
 import pt.iade.myiade.models.views.ResourceView;
 import pt.iade.myiade.models.views.ScheduleView;
+import pt.iade.myiade.models.views.StudentSemesterView;
 
 import java.util.Optional;
 
@@ -93,6 +94,13 @@ public class StudentController{
     {
         logger.info("Presence with student id: " + id);
         return studentRepository.findStudentPresence(id);
+    }
+
+    @GetMapping(path="/semester/{id}")
+    public Iterable<StudentSemesterView> getStudentSemester(@PathVariable int id) 
+    {
+        logger.info("Semester with student id -> " + id);
+        return studentRepository.findSemesterByStudentID(id);
     }
 }
 

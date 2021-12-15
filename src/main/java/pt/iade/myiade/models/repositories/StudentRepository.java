@@ -12,6 +12,7 @@ import pt.iade.myiade.models.views.GradesView;
 import pt.iade.myiade.models.views.PresenceView;
 import pt.iade.myiade.models.views.ResourceView;
 import pt.iade.myiade.models.views.ScheduleView;
+import pt.iade.myiade.models.views.StudentSemesterView;
 
 public interface StudentRepository extends CrudRepository<Student,Integer> 
 {
@@ -72,7 +73,17 @@ public interface StudentRepository extends CrudRepository<Student,Integer>
     " where stu_id=:id", nativeQuery = true)
     Iterable<PresenceView> findStudentPresence(@Param("id") int id);
 
-    
+    String QueryFindStudentSemester = 
+    "select unit_semester studentSemester " + 
+    "from schedules " +
+    "inner join clapresches on sche_cps_id = cps_id " +
+    "inner join unitcourses on cps_unitcour_id = unitcour_id " +
+    "inner join courses on unitcour_cour_id = cour_id " +
+    "inner join units on unitcour_unit_id = unit_id " +
+    "inner join enrollments on cps_id = enroll_cps_id " +
+    "inner join students on enroll_stu_id = stu_id ";
 
+    @Query(value = QueryFindStudentSemester +
+    " where stu_id=:id", nativeQuery = true)
+    Iterable<StudentSemesterView> findSemesterByStudentID(@Param("id") int id);
 }
-
