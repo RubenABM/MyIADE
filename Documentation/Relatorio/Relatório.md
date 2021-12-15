@@ -355,7 +355,7 @@ Resultado:
 Resultado:
 [
 {
-    
+    "studentName":"Maria Mendonça","presenceDate":"2021-12-15","unitName":"Computação Física e IoT"},{"studentName":"Maria Mendonça","presenceDate":"2021-12-15","unitName":"Sistemas Operativos"},{"studentName":"Maria Mendonça","presenceDate":"2021-12-15","unitName":"Empreendedorismo - Base Tecnológica"
 }
 ]
 
