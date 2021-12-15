@@ -43,9 +43,9 @@ public class PresenceController{
     }
 
     @GetMapping(path="/scheduleid/{qr}")
-    public Iterable<ScheduleIDView> getScheduleIDByQRCode(@PathVariable int QRCode) 
+    public Iterable<ScheduleIDView> getScheduleIDByQRCode(@PathVariable int qr) 
     {
-        logger.info("Returning schedule id with QR Code -> " + QRCode);
-        return presenceRepository.findScheduleIDByQRCode(QRCode);
+        logger.info("Returning schedule id with QR Code -> " + qr);
+        return presenceRepository.findScheduleIDByQRCode(qr);
     }
 }

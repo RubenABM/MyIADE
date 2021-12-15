@@ -35,5 +35,5 @@ public interface PresenceRepository extends CrudRepository<Presence,Integer>
 
     @Query(value = QueryFindScheduleIDByQRCOde +
     " where sche_qr=:qr", nativeQuery = true)
-    Iterable<ScheduleIDView> findScheduleIDByQRCode(@Param("qr") int QRCode);
+    Iterable<ScheduleIDView> findScheduleIDByQRCode(@Param("qr") int qr);
 }
