@@ -74,7 +74,7 @@ public interface StudentRepository extends CrudRepository<Student,Integer>
     Iterable<PresenceView> findStudentPresence(@Param("id") int id);
 
     String QueryFindStudentSemester = 
-    "select unit_semester studentSemester " + 
+    "select distinct unit_semester studentSemester " + 
     "from schedules " +
     "inner join clapresches on sche_cps_id = cps_id " +
     "inner join unitcourses on cps_unitcour_id = unitcour_id " +
