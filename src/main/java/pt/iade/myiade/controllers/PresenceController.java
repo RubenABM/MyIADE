@@ -4,6 +4,7 @@ import java.time.LocalDate;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -15,6 +16,7 @@ import org.slf4j.LoggerFactory;
 import pt.iade.myiade.models.Presence;
 import pt.iade.myiade.models.repositories.PresenceRepository;
 import pt.iade.myiade.models.responses.Response;
+import pt.iade.myiade.models.views.ScheduleIDView;
 
 @RestController
 @RequestMapping(path = "/api/presences")
@@ -38,5 +40,12 @@ public class PresenceController{
         Presence savedPresence = presenceRepository.save(presence);
         logger.info("Saving user with id " + savedPresence.getId());
         return savedPresence;
+    }
+
+    @GetMapping(path="/scheduleid/{qr}")
+    public Iterable<ScheduleIDView> getScheduleIDByQRCode(@PathVariable int QRCode) 
+    {
+        logger.info("Returning schedule id with QR Code -> " + QRCode);
+        return presenceRepository.findScheduleIDByQRCode(QRCode);
     }
 }
