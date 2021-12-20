@@ -34,7 +34,7 @@ public class PresenceController{
         return new Response(" presence registered -> ", inserted);
     }
 
-    @PostMapping(path= "", produces = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(path= "/body", produces = MediaType.APPLICATION_JSON_VALUE)
     public Presence saveUser(@RequestBody Presence presence)
     {
         Presence savedPresence = presenceRepository.save(presence);
