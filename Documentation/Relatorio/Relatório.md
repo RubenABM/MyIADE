@@ -355,6 +355,42 @@ Resultado:
 Resultado:
 [
 {
-    
+    "studentName":"Maria Mendonça","presenceDate":"2021-12-15","unitName":"Computação Física e IoT"},{"studentName":"Maria Mendonça","presenceDate":"2021-12-15","unitName":"Sistemas Operativos"},{"studentName":"Maria Mendonça","presenceDate":"2021-12-15","unitName":"Empreendedorismo - Base Tecnológica"
 }
 ]
+
+#### Apresentação do id do horário para ser marcada a presença
+###### (Devolve o id do horário)
+##### Url:https://myiade.herokuapp.com/api/presences/scheduleid/{QRCode} (get)
+##### Parâmetros:  QRCode - inteiro positivo que corresponde ao QR Code lido para ser marcada a presença
+Resultado:
+[
+{
+   "scheduleID":17,"studentName":"Fábio Santos"
+}
+]
+
+#### Apresentação dos semestres em que o aluno está inserido
+###### (Devolve os semestres do aluno)
+##### Url:https://myiade.herokuapp.com/api/students/semester/{id} (get)
+##### Parâmetros: id - inteiro positivo que corresponde ao id do estudante
+Resultado:
+[
+{
+   "studentSemester":5}, {"studentSemester":6
+}
+]
+
+#### Registar a presença de um aluno
+###### (Regista a presença de um aluno)
+##### Url:https://myiade.herokuapp.com//api/presences/{presenceStudentID}/{presenceScheduleID} (post)
+##### Parâmetros: presenceStudentID - inteiro positivo que corresponde ao id do estudante, presenceStudentID - inteiro positivo que corresponde ao id da presença num horário especifico
+Resposta:
+[
+{
+    "message": " presence registered -> ",
+    "object": 1
+}
+]
+
+
