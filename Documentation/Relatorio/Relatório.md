@@ -24,13 +24,13 @@
 
 ### Público-alvo do projeto:
 
-A aplicação MyIADE possui como público-alvo os diversos estudantes e docentes da universidade IADE.
+A aplicação MyIADE possui como público-alvo os diversos estudantes da universidade IADE.
 
 * * *
 
 ### Resumo:
 
-Iremos desenvolver uma app móvel da faculdade, com o nome de "MyIADE", de modo a facilitar o acesso à informação pelos estudantes e docentes.
+Desenvolvemos uma app móvel da faculdade, com o nome de "MyIADE", de modo a facilitar o acesso à informação pelos estudantes.
 
 * * *
 
@@ -44,23 +44,22 @@ Faculdade | Informação | Alunos | Horários | Acessibilidade
 
 Hoje em dia a forma mais comum de procurar informação são os dispositivos móveis, sendo uma forma bastante simples e rápida de consultar informação a qualquer hora e lugar.
 Esse aspeto é mais vincado na população mais jovem, nomeadamente entre os estudantes universitários. 
-A nossa faculdade, o IADE, possui uma aplicação móvel, a qual se encontra bastante desatualizada não estando enquadrada nos requisitos bases de um design apelativo ao utilizador. Como tal, decidimos criar uma nova aplicação adicionando novas funcionalidades inovadoras e úteis, que facilitam a vida dos estudantes e docentes.
-
+A nossa faculdade, o IADE, possui uma aplicação móvel, a qual se encontra bastante desatualizada não estando enquadrada nos requisitos bases de um design apelativo ao utilizador. Como tal, decidimos criar uma nova aplicação adicionando novas funcionalidades inovadoras e úteis, que facilitam a vida dos estudantes.
 * * *
 
 ### Objetivo:
 
-O objetivo deste projeto é desenvolver uma app móvel da faculdade, que corresponda às verdadeiras necessidades do estudante.
+O objetivo deste projeto é desenvolver uma app móvel da faculdade, que corresponda às verdadeiras necessidades do estudante, facilitando no seu percurso académico.
 
 * * *
 
 ### Funcionalidades:
 
-A nossa app será direcionada aos diversos alunos e docentes da faculdade, possuindo diversas funcionalidades:
+A nossa app será direcionada aos diversos alunos da faculdade, possuindo diversas funcionalidades:
 - Consulta de notas, horários, noticias e informações acerca da faculdade;
 - Encaminhamento para o e-mail do aluno;
 - Sistema de presenças através de QR Code disponibilizado pelo docente, sendo necessário estar ligado à rede da faculdade para confirmar a localização;
-- Repositório de ficheiros referente a cada curso, sendo possivel partilhar diferentes ficheiros de modo a facilitar o percurso dos alunos.
+- Repositório de ficheiros de cada curso, sendo possivel partilhar diferentes ficheiros de modo a facilitar o percurso dos alunos.
 
 * * *
 
@@ -71,7 +70,7 @@ Procurámos outras aplicações semelhantes a esta em outros estabelecimentos de
 - Universidade Lusófona
 - Faculdade de Ciências 
 
-Com base na nossa pesquisa conferimos que, em geral, as aplicações são sempre bastante semelhantes, possuindo as mesmas opções básicas, como por exemplo conferir notas e horários.
+Com base na nossa pesquisa conferimos que, em geral, as aplicações são sempre bastante semelhantes, possuindo as mesmas opções básicas, como por exemplo conferir notas e horários, sem funcionalidades inovadoras.
 Com a nossa aplicação iremos inovador este estigma entre estas aplicações, inovando nas opções fornecidas.
 
 * * *
@@ -82,8 +81,13 @@ Antes de efetuar os guiões deve inserir o email e a password do estudante a que
 - Email para testes: andres@iade.pt
 - Password para testes: andreiade
 
+ou
+
+- Email para testes: beatrizc@iade.pt
+- Password para testes: beatriziade
+
 ###### (Leitura do QR Code para marcação da presença)
-1º - Quando abrir a aplicação irão ser mostradas as notícias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "Noticías", "Presenças", "O meu curso", "Campus", "E-mail", "O meu Perfil" e "Terminar sessão". Irá entrar na opção "Presenças", sendo mostradas 2 opções, "Marcar presença" e "Presenças". Irá entrar na opção "Marcar presença", será pedido o acesso à câmara do telemóvel, depois de permitir o acesso irá ler o QR Code. Será automaticamente marcada a presença na respetiva aula. 
+1º - Quando abrir a aplicação irão ser mostradas as notícias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "Noticías", "Presenças", "O meu curso", "Campus", "E-mail", "O meu Perfil" e "Terminar sessão". Irá entrar na opção "Presenças". Será pedido o acesso à câmara do telemóvel, depois de permitir o acesso irá ler o QR Code. Será automaticamente marcada a presença na respetiva aula. 
 
 ###### (Aceder ao repositório de ficheiros)
 2º - Quando abrir a aplicação irão ser mostradas as notícias, no canto superior esquerdo irá ver um ícone com 3 barras. Irá pressionar esse ícone e irá ser aberto o menu com várias opções, na parte lateral esquerda, sendo elas o menu "Noticías", "Presenças", "O meu curso", "Campus", "E-mail", "O meu Perfil" e "Terminar sessão". Irá entrar na opção "O meu curso". Na parte inferior do ecrã irá ter a opção "Recursos", irá clicar na mesma e irá ser redirecionado para o repositório de ficheiros do curso. Neste repositorio pode escolher o ano, semestre e unidade curricular, de modo a poder consultar os ficheiros especificos acerca dessa unidade.
