@@ -58,7 +58,7 @@ O objetivo deste projeto é desenvolver uma app móvel da faculdade, que corresp
 A nossa app será direcionada aos diversos alunos da faculdade, possuindo diversas funcionalidades:
 - Consulta de notas, horários, noticias e informações acerca da faculdade;
 - Encaminhamento para o e-mail do aluno;
-- Sistema de presenças através de QR Code disponibilizado pelo docente, sendo necessário estar ligado à rede da faculdade para confirmar a localização;
+- Sistema de presenças através de QR Code disponibilizado pelo docente;
 - Repositório de ficheiros de cada curso, sendo possivel partilhar diferentes ficheiros de modo a facilitar o percurso dos alunos.
 
 * * *
