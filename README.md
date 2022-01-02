@@ -20,6 +20,7 @@ Projeto 3º Semestre de Engenharia Informática
 
 - Tanto a documentação REST como o Diagrama de Classes se encontram na pasta "Documentation".
 - A documentação REST também está inserida no relatório.
+- O enquadramento e os guiões de teste encontram-se no relatório.
 
 * * *
 
