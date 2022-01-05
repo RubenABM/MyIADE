@@ -399,7 +399,7 @@ Resposta:
 
 
 | Apresentação dos semestres em que o aluno está inserido |
-| ------------------------------------- |
+| ----------- |
 | (Devolve os semestres do aluno) | 
 | Url: https://myiade.herokuapp.com/api/students/semester/{id} (get)| 
 |Parâmetros: id - inteiro positivo que corresponde ao id do estudante | 
