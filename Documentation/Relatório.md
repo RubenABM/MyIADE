@@ -397,6 +397,12 @@ Resposta:
 }
 ]
 
+|  Apresentação do id do horário para ser marcada a presença |
+| ----------- |
+|  (Devolve o id do horário) | 
+| Url: https://myiade.herokuapp.com/api/presences/scheduleid/{QRCode} (get)| 
+|Parâmetros: QRCode - inteiro positivo que corresponde ao QR Code lido para ser marcada a presença | 
+|Resposta: [ {  "scheduleID":17,"studentName":"Fábio Santos" }]|
 
 | Apresentação dos semestres em que o aluno está inserido |
 | ----------- |
