@@ -401,6 +401,6 @@ Resposta:
 | Registar a presença de um aluno |
 | ----------- |
 | (Regista a presença de um aluno) | 
-| Url:https://myiade.herokuapp.com//api/presences/{presenceStudentID}/{presenceScheduleID} (post)   | 
+| Url: https://myiade.herokuapp.com//api/presences/{presenceStudentID}/{presenceScheduleID} (post)   | 
 |Parâmetros: presenceStudentID - inteiro positivo que corresponde ao id do estudante, presenceStudentID - inteiro positivo que corresponde ao id da presença num horário especifico  | 
-|Resposta: [ { "message": " presence registered -> ", "object": 1 }]|
+|Resposta: \n [ { "message": " presence registered -> ", "object": 1 }]|
