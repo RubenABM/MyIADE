@@ -398,9 +398,19 @@ Resposta:
 ]
 
 
+| Apresentação dos semestres em que o aluno está inserido |
+| ----------- |
+| (Devolve os semestres do aluno) | 
+| Url: https://myiade.herokuapp.com/api/students/semester/{id} (get)| 
+|Parâmetros: id - inteiro positivo que corresponde ao id do estudante | 
+|Resposta: [ {  "message": " presence registered -> ","object": 1 }]|
+
+
 | Registar a presença de um aluno |
 | ----------- |
 | (Regista a presença de um aluno) | 
 | Url: https://myiade.herokuapp.com//api/presences/{presenceStudentID}/{presenceScheduleID} (post)   | 
 |Parâmetros: presenceStudentID - inteiro positivo que corresponde ao id do estudante, presenceStudentID - inteiro positivo que corresponde ao id da presença num horário especifico  | 
-|Resposta: \n [ { "message": " presence registered -> ", "object": 1 }]|
+|Resposta: [ { "message": " presence registered -> ", "object": 1 }]|
+
+
