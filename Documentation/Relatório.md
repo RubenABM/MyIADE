@@ -352,18 +352,6 @@ Resultado:
 }
 ]
 
-#### Apresentação da presença do aluno consoante o seu id
-###### (Devolve as presenças do aluno consoante o id)
-##### Url: myiade.herokuapp.com/api/students/presence/{id} (get)
-##### Parâmetros:  id - inteiro positivo que corresponde ao id do aluno
-Resultado:
-[
-{
-    "studentName":"Maria Mendonça","presenceDate":"2021-12-15","unitName":"Computação Física e IoT"},{"studentName":"Maria Mendonça","presenceDate":"2021-12-15","unitName":"Sistemas Operativos"},{"studentName":"Maria Mendonça","presenceDate":"2021-12-15","unitName":"Empreendedorismo - Base Tecnológica"
-}
-]
-
-
 
 |  Apresentação da presença do aluno consoante o seu id |
 | ----------- |
@@ -371,7 +359,6 @@ Resultado:
 | Url: myiade.herokuapp.com/api/students/presence/{id} (get)| 
 |Parâmetros: Parâmetros:  id - inteiro positivo que corresponde ao id do aluno | 
 |Resposta: [ {  "studentName":"Maria Mendonça","presenceDate":"2021-12-15","unitName":"Computação Física e IoT"},{"studentName":"Maria Mendonça","presenceDate":"2021-12-15","unitName":"Sistemas Operativos"},{"studentName":"Maria Mendonça","presenceDate":"2021-12-15","unitName":"Empreendedorismo - Base Tecnológica" }]|
-
 
 |  Apresentação do id do horário para ser marcada a presença |
 | ----------- |
