@@ -149,22 +149,12 @@ O Fábio Santos é um jovem de 20 anos, é estudante do IADE tendo outro irmão 
 | Url: myiade.herokuapp.com/api/students/grades (get) |
 | Resultado: [{ {"studentGrade":14,"unitSemester":5,"studentName":"André Santos","unitName":"Segurança Informática" } { "studentGrade":9,"unitSemester":6,"studentName":"André Santos","unitName":"Sistemas Operativos" } { "studentGrade":6,"unitSemester":1,"studentName":"Diogo José","unitName":"Ciência, Fontes e Métodos" } ...] |
 
-#### Obter as notas do estudante através do seu id
-###### (Irá devolver as notas de um estudante tendo por base o id do estudante)
-##### Url: myiade.herokuapp.com/api/students/grades/{id} (get)
-##### Parâmetros: id - inteiro positivo que corresponde ao id associado a um estudante
-Resultado:  
-[
-{
-   "studentName":"André Santos","studentGrade":14,"unitSemester":5,"unitName":"Segurança Informática"
-}
-{
-   "studentName":"André Santos","studentGrade":12,"unitSemester":5,"unitName":"Inteligência Artificial"
-}
-{
-   "studentName":"André Santos","studentGrade":11,"unitSemester":5,"unitName":"Sistemas Distribuídos" 
-}
-...]  
+| Obter as notas do estudante através do seu id |
+| ----------- |
+| (Irá devolver as notas de um estudante tendo por base o id do estudante) |
+| Url: myiade.herokuapp.com/api/students/grades/{id} (get) |
+| Parâmetros: id - inteiro positivo que corresponde ao id associado a um estudante |
+| Resultado: [ { "studentName":"André Santos","studentGrade":14,"unitSemester":5,"unitName":"Segurança Informática" } { "studentName":"André Santos","studentGrade":12,"unitSemester":5,"unitName":"Inteligência Artificial" } { "studentName":"André Santos","studentGrade":11,"unitSemester":5,"unitName":"Sistemas Distribuídos" } ...] |
 
 #### Obter os horários do estudante consoante o id e semestre
 ###### (Irá devolver o horário do estudante tendo por base o id do estudante e o semestre)
