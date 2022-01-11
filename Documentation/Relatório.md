@@ -136,29 +136,18 @@ O Fábio Santos é um jovem de 20 anos, é estudante do IADE tendo outro irmão 
 | Resultado: { "id":1,"name":"André Santos","phone":"925478589","email":"andres@iade.pt","address":"Rua de Lisboa, Nº57 2ºDireito, 1000-001 Lisboa","password":"andreiade","gender":"M","bdate":"2000-05-21","civilNumber":32541255 } |
 | Erros: 404 (HttpStatus.NOT_FOUN D): O estudante não foi encontrado { "timestamp": "2021-11-10T22:12:27.282+00:00", "status": 404, "error": "Not Found", "message": "Student with id 0 not found", "path": "/api/students/0" } |
 
-#### Apresentação da informação de um estudante através do email e da password
-###### (Devolve a informação referente a cada estudante pelo seu email e password)
-##### Url: Url: myiade.herokuapp.com/api/students/{email}/{password}  (get)
-##### Parâmetros: email - string que corresponde ao email do estudante e password - string que corresponde à password do estudante
-{
-   "id":1,"name":"André Santos","phone":"925478589","email":"andres@iade.pt","address":"Rua de Lisboa, Nº57 2ºDireito, 1000-001                                                         Lisboa","password":"andreiade","gender":"M","bdate":"2000-05-21","civilNumber":32541255     
-}  
+| Apresentação da informação de um estudante através do email e da password |
+| ----------- |
+| (Devolve a informação referente a cada estudante pelo seu email e password) |
+| Url: Url: myiade.herokuapp.com/api/students/{email}/{password}  (get) |
+| Parâmetros: email - string que corresponde ao email do estudante e password - string que corresponde à password do estudante
+{ "id":1,"name":"André Santos","phone":"925478589","email":"andres@iade.pt","address":"Rua de Lisboa, Nº57 2ºDireito, 1000-001 Lisboa","password":"andreiade","gender":"M","bdate":"2000-05-21","civilNumber":32541255 } | 
 
-#### Apresentação das notas de todos os estudantes
-###### (Devolve a informação referente às notas de todos os estudantes)
-##### Url: myiade.herokuapp.com/api/students/grades (get)
-Resultado:  
-[
-{
-   {"studentGrade":14,"unitSemester":5,"studentName":"André Santos","unitName":"Segurança Informática"
-}
-{
-   "studentGrade":9,"unitSemester":6,"studentName":"André Santos","unitName":"Sistemas Operativos"
-}
-{
-   "studentGrade":6,"unitSemester":1,"studentName":"Diogo José","unitName":"Ciência, Fontes e Métodos"
-}
-...] 
+| Apresentação das notas de todos os estudantes |
+| ----------- |
+| (Devolve a informação referente às notas de todos os estudantes) |
+| Url: myiade.herokuapp.com/api/students/grades (get) |
+| Resultado: [{ {"studentGrade":14,"unitSemester":5,"studentName":"André Santos","unitName":"Segurança Informática" } { "studentGrade":9,"unitSemester":6,"studentName":"André Santos","unitName":"Sistemas Operativos" } { "studentGrade":6,"unitSemester":1,"studentName":"Diogo José","unitName":"Ciência, Fontes e Métodos" } ...] |
 
 #### Obter as notas do estudante através do seu id
 ###### (Irá devolver as notas de um estudante tendo por base o id do estudante)
