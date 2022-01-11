@@ -156,162 +156,72 @@ O Fábio Santos é um jovem de 20 anos, é estudante do IADE tendo outro irmão 
 | Parâmetros: id - inteiro positivo que corresponde ao id associado a um estudante |
 | Resultado: [ { "studentName":"André Santos","studentGrade":14,"unitSemester":5,"unitName":"Segurança Informática" } { "studentName":"André Santos","studentGrade":12,"unitSemester":5,"unitName":"Inteligência Artificial" } { "studentName":"André Santos","studentGrade":11,"unitSemester":5,"unitName":"Sistemas Distribuídos" } ...] |
 
-#### Obter os horários do estudante consoante o id e semestre
-###### (Irá devolver o horário do estudante tendo por base o id do estudante e o semestre)
-##### Url: myiade.herokuapp.com/api/schedule/{id}/{semester} (get)
-##### Parâmetros: id - inteiro positivo que corresponde ao id associado a um estudante, semestre - inteiro positivo que corresponde ao semestre
-Resultado:  
-[
-{
-   "startTime":"17:00:00","studentName":"André Santos","unitName":"Segurança Informática","endTime":"19:00:00","weekDay":"Segunda"
-}
-{
-   "startTime":"14:00:00","studentName":"André Santos","unitName":"Sistemas Distribuídos","endTime":"16:00:00","weekDay":"Terça"
-}
-{
-   "startTime":"16:00:00","studentName":"André Santos","unitName":"Segurança Informática","endTime":"19:00:00","weekDay":"Quinta"
-}
-...]  
+| Obter os horários do estudante consoante o id e semestre |
+| ----------- |
+| (Irá devolver o horário do estudante tendo por base o id do estudante e o semestre) |
+| Url: myiade.herokuapp.com/api/schedule/{id}/{semester} (get) |
+| Parâmetros: id - inteiro positivo que corresponde ao id associado a um estudante, semestre - inteiro positivo que corresponde ao semestre |
+| Resultado: [ { "startTime":"17:00:00","studentName":"André Santos","unitName":"Segurança Informática","endTime":"19:00:00","weekDay":"Segunda" } { "startTime":"14:00:00","studentName":"André Santos","unitName":"Sistemas Distribuídos","endTime":"16:00:00","weekDay":"Terça" } { "startTime":"16:00:00","studentName":"André Santos","unitName":"Segurança Informática","endTime":"19:00:00","weekDay":"Quinta" } ...] |
 
-#### Apresentação da informação de todos os cursos
-###### (Devolve a informação referente a todos os cursos)
-##### Url: myiade.herokuapp.com/api/courses (get)
-Resultado:
-[
-{
-  "id":1,"name":"Engenharia Informática","url":"https://drive.google.com/drive/folders/1LVFYLPQ2vGa3pbYnWEqgJ6zh3a5nnwPt?usp=sharing"
-}  
-{  
-   "id":2,"name":"Informática de Gestão","url":"https://drive.google.com/drive/folders/13thB9Cw8RVjxbL7cMn2u7tUC2agVcZ7Y"
-}
-{  
-   "id":3,"name":"Games Development","url":"https://drive.google.com/drive/folders/1l3XA_6SMP3uLWc6XnEfjXgj_0MphR23h?usp=sharing"
-}
-]  
+| Apresentação da informação de todos os cursos |
+| ----------- |
+| (Devolve a informação referente a todos os cursos) |
+| Url: myiade.herokuapp.com/api/courses (get) |
+| Resultado: [ { "id":1,"name":"Engenharia Informática","url":"https://drive.google.com/drive/folders/1LVFYLPQ2vGa3pbYnWEqgJ6zh3a5nnwPt?usp=sharing" } { "id":2,"name":"Informática de Gestão","url":"https://drive.google.com/drive/folders/13thB9Cw8RVjxbL7cMn2u7tUC2agVcZ7Y" } { "id":3,"name":"Games Development","url":"https://drive.google.com/drive/folders/1l3XA_6SMP3uLWc6XnEfjXgj_0MphR23h?usp=sharing" } ] |  
 
-#### Apresentação da informação de um curso através do id
-###### (Devolve a informação referente a cada curso pelo seu id)
-##### Url: Url: myiade.herokuapp.com/api/courses/{id} (get)
-##### Parâmetros: id - inteiro positivo que corresponde ao id do curso
+| Apresentação da informação de um curso através do id |
+| ----------- |
+| (Devolve a informação referente a cada curso pelo seu id) |
+| Url: Url: myiade.herokuapp.com/api/courses/{id} (get) |
+| Parâmetros: id - inteiro positivo que corresponde ao id do curso |
+| Resultado: { "id":1,"name":"Engenharia Informática","url":"https://drive.google.com/drive/folders/1LVFYLPQ2vGa3pbYnWEqgJ6zh3a5nnwPt?usp=sharing" } |
+| Erros: 404 (HttpStatus.NOT_FOUN D): O curso não foi encontrado { "timestamp": "2021-112-06T10:57:22.282+00:00", "status": 404, "error": "Not Found", "message": "Course with id 0 not found", "path": "/api/courses/0" } |  
 
-Resultado:  
-{
-   "id":1,"name":"Engenharia Informática","url":"https://drive.google.com/drive/folders/1LVFYLPQ2vGa3pbYnWEqgJ6zh3a5nnwPt?usp=sharing"     
-}
- 
-Erros:
-404 (HttpStatus.NOT_FOUN D): O curso não foi encontrado
-{
-    "timestamp": "2021-112-06T10:57:22.282+00:00",
-    "status": 404,
-    "error": "Not Found",
-    "message": "Course with id 0 not found",
-    "path": "/api/courses/0"
-}  
+| Apresentação do curso referente a cada estudante |
+| ----------- |
+| (Devolve a informação referente aos cursos de cada estudante) |
+| Url: myiade.herokuapp.com/api/courses/studentscourse (get) |
+| Resultado: [ { "courseName":"Informática de Gestão","studentName":"Diogo José" { "courseName":"Games Development","studentName":"Maria Mendonça" } { "courseName":"Engenharia Informática","studentName":"André Santos" } ...] |  
 
-#### Apresentação do curso referente a cada estudante
-###### (Devolve a informação referente aos cursos de cada estudante)
-##### Url: myiade.herokuapp.com/api/courses/studentscourse (get)
-Resultado:
-[
-{
-   "courseName":"Informática de Gestão","studentName":"Diogo José"  
-{  
-   "courseName":"Games Development","studentName":"Maria Mendonça"
-}
-{  
-   "courseName":"Engenharia Informática","studentName":"André Santos"
-}
-...]  
+| Apresentação do curso referente a cada estudante consoante o seu id |
+| ----------- |
+| (Devolve o estudante e respetivo curso consoante o id do estudante) |
+| Url: Url: myiade.herokuapp.com/api/courses/studentscourse/{id} (get) |
+| Parâmetros: id - inteiro positivo que corresponde ao id do aluno |
+| Resultado: { "courseName":"Engenharia Informática","studentName":"André Santos" } |
 
-#### Apresentação do curso referente a cada estudante consoante o seu id
-###### (Devolve o estudante e respetivo curso consoante o id do estudante)
-##### Url: Url: myiade.herokuapp.com/api/courses/studentscourse/{id} (get)
-##### Parâmetros: id - inteiro positivo que corresponde ao id do aluno
+| Apresentação da informação de todas unidades curriculares |
+| ----------- |
+| (Devolve a informação referente a todas as unidades curriculares) |
+| Url: myiade.herokuapp.com/api/units (get) |
+| Resultado: [ { "id":1,"name":"Análise Matemática I","semester":1 } { "id":2,"name":"Álgebra Linear","semester":1 } { "id":42,"name":"Criatividade e Pensamento Crítico","semester":2 } …] | 
 
-Resultado:  
-{
-  "courseName":"Engenharia Informática","studentName":"André Santos"
-}
+| Apresentação da informação de uma unidade curricular consoante o seu |
+| ----------- |
+| (Devolve a informação referente a cada unidade curricular pelo seu id) |
+| Url: myiade.herokuapp.com/api/units/{id} (get) |
+| Parâmetros: id - inteiro positivo que corresponde ao id da unidade curricular |
+| Resultado: { "id":1,"name":"Análise Matemática I","semester":1 } |
+| Erros: 404 (HttpStatus.NOT_FOUND): O estudante não foi encontrado { "timestamp": "2021-12-06T11:32:39.282+00:00", "status": 404, "error": "Not Found", "message": "Unit with id 0 not found", "path": "/api/units/0" } |
 
-#### Apresentação da informação de todas unidades curriculares
-###### (Devolve a informação referente a todas as unidades curriculares)
-##### Url: myiade.herokuapp.com/api/units (get)
-Resultado:
-[
-{
-   "id":1,"name":"Análise Matemática I","semester":1    
-}
-{
-   "id":2,"name":"Álgebra Linear","semester":1
-}
-{
-   "id":42,"name":"Criatividade e Pensamento Crítico","semester":2
-}
-…]  
+| Apresentação das unidades curriculares referentes a cada curso |
+| ----------- |
+| (Devolve a informação referente às unidades curriculares e correspondentes cursos) |
+| Url: myiade.herokuapp.com/api/units/unitcourse (get) |
+| Resultado: [ { "courseName":"Engenharia Informática","unitName":"Análise Matemática I" { "courseName":"Engenharia Informática","unitName":"Álgebra Linear" } { "Games Development","unitName":"Game Frameworks" } ...] | 
 
-#### Apresentação da informação de uma unidade curricular consoante o seu
-###### (Devolve a informação referente a cada unidade curricular pelo seu id)
-##### Url: myiade.herokuapp.com/api/units/{id} (get)
-##### Parâmetros: id - inteiro positivo que corresponde ao id da unidade curricular
-
-Resultado:  
-{
-   "id":1,"name":"Análise Matemática I","semester":1    
-}
- 
-Erros:
-404 (HttpStatus.NOT_FOUND): O estudante não foi encontrado
-{
-    "timestamp": "2021-12-06T11:32:39.282+00:00",
-    "status": 404,
-    "error": "Not Found",
-    "message": "Unit with id 0 not found",
-    "path": "/api/units/0"
-}
-
-#### Apresentação das unidades curriculares referentes a cada curso
-###### (Devolve a informação referente às unidades curriculares e correspondentes cursos)
-##### Url: myiade.herokuapp.com/api/units/unitcourse (get)
-Resultado:
-[
-{
-   "courseName":"Engenharia Informática","unitName":"Análise Matemática I"
-{  
-   "courseName":"Engenharia Informática","unitName":"Álgebra Linear"
-}
-{  
-   "Games Development","unitName":"Game Frameworks"
-}
-...]  
-
-#### Apresentação das unidades curriculares de cada curso consoante o nome do curso
-###### (Devolve as unidades curriculares consoante o nome do curso)
-##### Url: myiade.herokuapp.com/api/units/unitcourse/{course} (get)
-##### Parâmetros: course - string que corresponde ao nome do curso
-Resultado:  
-[
-{
-  "courseName":"Engenharia Informática","unitName":"Análise Matemática I"
-}
-{
-   "courseName":"Engenharia Informática","unitName":"Interfaces e Usabilidade"
-}
-...]  
-
-#### Apresentação do url correspondente ao repositório de cada curso consoante o id do estudante
-###### (Devolve o url do repositório consoante o id do estudante)
-##### Url: myiade.herokuapp.com/api/students/resource/{id} (get)
-##### Parâmetros:  id - inteiro positivo que corresponde ao id do aluno
-Resultado:
-[
-{
-     "courName":"Engenharia Informática",
-     "courUrl":"https://drive.google.com/drive/folders/1LVFYLPQ2vGa3pbYnWEqgJ6zh3a5nnwPt?usp=sharing",
-     "studentName":"André Santos"
-}
-]
-
+| Apresentação das unidades curriculares de cada curso consoante o nome do curso |
+| ----------- |
+| (Devolve as unidades curriculares consoante o nome do curso) |
+| Url: myiade.herokuapp.com/api/units/unitcourse/{course} (get) |
+| Parâmetros: course - string que corresponde ao nome do curso |
+| Resultado: [ { "courseName":"Engenharia Informática","unitName":"Análise Matemática I" } { "courseName":"Engenharia Informática","unitName":"Interfaces e Usabilidade" } ...] |  
+| Apresentação do url correspondente ao repositório de cada curso consoante o id do estudante |
+| ----------- |
+| (Devolve o url do repositório consoante o id do estudante) |
+| Url: myiade.herokuapp.com/api/students/resource/{id} (get) |
+| Parâmetros:  id - inteiro positivo que corresponde ao id do aluno |
+| Resultado: [ { "courName":"Engenharia Informática", "courUrl":"https://drive.google.com/drive/folders/1LVFYLPQ2vGa3pbYnWEqgJ6zh3a5nnwPt?usp=sharing", "studentName":"André Santos" } ] |
 
 |  Apresentação da presença do aluno consoante o seu id |
 | ----------- |
