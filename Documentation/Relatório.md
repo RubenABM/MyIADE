@@ -128,13 +128,8 @@ O Fábio Santos é um jovem de 20 anos, é estudante do IADE tendo outro irmão 
 | Url: myiade.herokuapp.com/api/students (get)   | 
 |Resposta: Resultado: [{ "id":1,"name":"André Santos","phone":"925478589","email":"andres@iade.pt","address":"Rua de Lisboa, Nº57 2ºDireito, 1000-001 Lisboa","password":"andreiade","gender":"M","bdate":"2000-05-21","civilNumber":32541255} { "id":2,"name":"BrunaSousa","phone":"965544324","email":"brunas@iade.pt","address":"Rua dos Açores, Nº50 1ºEsquerdo, 1001-002 Lisboa","password":"brunaiade","gender":"F","bdate":"2002-01-02","civilNumber":77553844}…] |
 
-| Apresentação da informação de todos os estudantes |
-| ----------- |
-| ((Devolve a informação referente a todos os estudantes) | 
-| Url: myiade.herokuapp.com/api/students (get)   | 
-|Resposta: Resultado: [{ "id":1,"name":"André Santos","phone":"925478589","email":"andres@iade.pt","address":"Rua de Lisboa, Nº57 2ºDireito, 1000-001 Lisboa","password":"andreiade","gender":"M","bdate":"2000-05-21","civilNumber":32541255} { "id":2,"name":"BrunaSousa","phone":"965544324","email":"brunas@iade.pt","address":"Rua dos Açores, Nº50 1ºEsquerdo, 1001-002 Lisboa","password":"brunaiade","gender":"F","bdate":"2002-01-02","civilNumber":77553844}…] |
-
 | Apresentação da informação de um estudante através do id |
+| ----------- |
 | (Devolve a informação referente a cada estudante pelo seu id) |
 | Url: Url: myiade.herokuapp.com/api/students/{id} (get) |
 | Parâmetros: id - inteiro positivo que corresponde ao id do estudante |
