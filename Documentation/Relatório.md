@@ -134,13 +134,7 @@ O Fábio Santos é um jovem de 20 anos, é estudante do IADE tendo outro irmão 
 | Url: Url: myiade.herokuapp.com/api/students/{id} (get) |
 | Parâmetros: id - inteiro positivo que corresponde ao id do estudante |
 | Resultado: { "id":1,"name":"André Santos","phone":"925478589","email":"andres@iade.pt","address":"Rua de Lisboa, Nº57 2ºDireito, 1000-001 Lisboa","password":"andreiade","gender":"M","bdate":"2000-05-21","civilNumber":32541255 } |
-| Erros: 404 (HttpStatus.NOT_FOUN D): O estudante não foi encontrado {
-    "timestamp": "2021-11-10T22:12:27.282+00:00",
-    "status": 404,
-    "error": "Not Found",
-    "message": "Student with id 0 not found",
-    "path": "/api/students/0"
-} |
+| Erros: 404 (HttpStatus.NOT_FOUN D): O estudante não foi encontrado { "timestamp": "2021-11-10T22:12:27.282+00:00", "status": 404, "error": "Not Found", "message": "Student with id 0 not found", "path": "/api/students/0" } |
 
 #### Apresentação da informação de um estudante através do email e da password
 ###### (Devolve a informação referente a cada estudante pelo seu email e password)
