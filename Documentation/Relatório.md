@@ -215,7 +215,8 @@ O Fábio Santos é um jovem de 20 anos, é estudante do IADE tendo outro irmão 
 | (Devolve as unidades curriculares consoante o nome do curso) |
 | Url: myiade.herokuapp.com/api/units/unitcourse/{course} (get) |
 | Parâmetros: course - string que corresponde ao nome do curso |
-| Resultado: [ { "courseName":"Engenharia Informática","unitName":"Análise Matemática I" } { "courseName":"Engenharia Informática","unitName":"Interfaces e Usabilidade" } ...] |  
+| Resultado: [ { "courseName":"Engenharia Informática","unitName":"Análise Matemática I" } { "courseName":"Engenharia Informática","unitName":"Interfaces e Usabilidade" } ...] |
+
 | Apresentação do url correspondente ao repositório de cada curso consoante o id do estudante |
 | ----------- |
 | (Devolve o url do repositório consoante o id do estudante) |
