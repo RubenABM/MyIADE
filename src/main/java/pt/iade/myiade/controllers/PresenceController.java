@@ -26,7 +26,7 @@ public class PresenceController{
     @Autowired
     private PresenceRepository presenceRepository;
     @PostMapping(path = "/{presenceStudentID}/{presenceScheduleID}")
-    public Response registerStudent(@PathVariable int presenceStudentID, @PathVariable int presenceScheduleID) {
+    public Response registerPresence(@PathVariable int presenceStudentID, @PathVariable int presenceScheduleID) {
     
         logger.info("Registering presence ");
 
@@ -35,10 +35,9 @@ public class PresenceController{
     }
 
     @PostMapping(path= "/body", produces = MediaType.APPLICATION_JSON_VALUE)
-    public Presence saveUser(@RequestBody Presence presence)
+    public Presence savePresence(@RequestBody Presence presence)
     {
         Presence savedPresence = presenceRepository.save(presence);
-        logger.info("Saving user with id " + savedPresence.getId());
         return savedPresence;
     }
 
