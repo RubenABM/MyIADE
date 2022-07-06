@@ -3,6 +3,11 @@
 # MyIADE
 Projeto 3º Semestre de Engenharia Informática
 
+Alunos:
+
+- Rúben Martins
+- Rúben Passarinho
+
 * * *
 
 ## Gestão do projeto
